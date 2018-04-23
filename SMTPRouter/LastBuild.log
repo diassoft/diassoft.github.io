@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.12.30.2" projectFile="D:\Diassoft\Sandcastle\SMTPRouter\SMTPRouter.shfbproj" started="4/22/2018 9:24:20 PM">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Locating components in the following folder(s):
+    D:\Diassoft\Sandcastle\SMTPRouter
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;.NET Framework 4.5&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2017.12.30.2
+Copyright &#169; 2006-2017, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: D:\Diassoft\Source Code\SMTPRouter\SMTPRouter\bin\Release\netstandard1.3\SMTPRouter.dll
+    Found assembly &#39;D:\Diassoft\Source Code\SMTPRouter\SMTPRouter\bin\Release\netstandard1.3\SMTPRouter.dll&#39;
+Source: D:\Diassoft\Source Code\SMTPRouter.Windows\SMTPRouter.Windows\bin\Release\SMTPRouter.Windows.dll
+    Found assembly &#39;D:\Diassoft\Source Code\SMTPRouter.Windows\SMTPRouter.Windows\bin\Release\SMTPRouter.Windows.dll&#39;
+Source: D:\Diassoft\Sandcastle\SMTPRouter\Content\Additional XML Comments\NamespaceComments.xml
+
+References to include (excluding framework assemblies):
+    BouncyCastle.Crypto
+    Diassoft.Mvvm
+    MailKit
+    MimeKit
+    SMTPRouter
+    SmtpServer
+
+Copying XML comments files
+    D:\Diassoft\Sandcastle\SMTPRouter\Content\Additional XML Comments\NamespaceComments.xml -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\NamespaceComments.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00.0280
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0020
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateRefInfo.proj]
+Build started 4/22/2018 9:24:22 PM.
+Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2017.12.30.2)
+  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 2 assemblies for reflection and 57 dependency assemblies.
+  Using automatic redirect &#39;SMTPRouter, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null&#39; in place of &#39;SMTPRouter, Version=1.0.1.1, Culture=neutral, PublicKeyToken=null&#39;
+  Using automatic redirect &#39;System.Threading.Tasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Threading.Tasks, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Using automatic redirect &#39;System.Collections.Concurrent, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Collections, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.IO.FileSystem (System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by SMTPRouter [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\GenerateRefInfo.proj]
+  Wrote information on 3 namespaces, 24 types, and 165 members
+  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
+  XslTransform (v2017.12.30.2)
+  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.10
+    Last step completed in 00:00:01.2390
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - TransformManifest.proj]
+Build started 4/22/2018 9:24:23 PM.
+Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+TransformManifest:
+  XslTransform (v2017.12.30.2)
+  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
+  XslTransform (v2017.12.30.2)
+  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+    Unique name M_SMTPRouter_Listener__ctor_1 generated for M:SMTPRouter.Listener.#ctor(System.String,System.Int32[])
+    Unique name M_SMTPRouter_Listener__ctor_2 generated for M:SMTPRouter.Listener.#ctor(System.String,System.Int32[],System.Boolean)
+    Unique name M_SMTPRouter_Listener__ctor_3 generated for M:SMTPRouter.Listener.#ctor(System.String,System.Int32[],System.Boolean,System.Boolean)
+    Unique name M_SMTPRouter_MessageErrorEventArgs__ctor_1 generated for M:SMTPRouter.MessageErrorEventArgs.#ctor(MimeKit.MimeMessage)
+    Unique name M_SMTPRouter_MessageErrorEventArgs__ctor_2 generated for M:SMTPRouter.MessageErrorEventArgs.#ctor(MimeKit.MimeMessage,System.Exception)
+    Unique name M_SMTPRouter_MessageEventArgs__ctor_1 generated for M:SMTPRouter.MessageEventArgs.#ctor(MimeKit.MimeMessage)
+    Unique name M_SMTPRouter_MessageNotQueuedException__ctor_1 generated for M:SMTPRouter.MessageNotQueuedException.#ctor(MimeKit.MimeMessage)
+    Unique name M_SMTPRouter_MessageNotQueuedException__ctor_2 generated for M:SMTPRouter.MessageNotQueuedException.#ctor(MimeKit.MimeMessage,System.Exception)
+    Unique name M_SMTPRouter_MessageNotSentException__ctor_1 generated for M:SMTPRouter.MessageNotSentException.#ctor(MimeKit.MimeMessage)
+    Unique name M_SMTPRouter_MessageNotSentException__ctor_2 generated for M:SMTPRouter.MessageNotSentException.#ctor(MimeKit.MimeMessage,System.Exception)
+    Unique name M_SMTPRouter_MimeMessageException__ctor_1 generated for M:SMTPRouter.MimeMessageException.#ctor(System.String)
+    Unique name M_SMTPRouter_MimeMessageException__ctor_2 generated for M:SMTPRouter.MimeMessageException.#ctor(System.String,MimeKit.MimeMessage)
+    Unique name M_SMTPRouter_MimeMessageException__ctor_3 generated for M:SMTPRouter.MimeMessageException.#ctor(System.String,MimeKit.MimeMessage,System.Exception)
+    Unique name M_SMTPRouter_QueuesNotInitializedException__ctor_1 generated for M:SMTPRouter.QueuesNotInitializedException.#ctor(System.Exception)
+    Unique name M_SMTPRouter_Router__ctor_1 generated for M:SMTPRouter.Router.#ctor(System.String)
+    Unique name M_SMTPRouter_Router__ctor_2 generated for M:SMTPRouter.Router.#ctor(System.String,System.String)
+    Unique name M_SMTPRouter_Server__ctor_1 generated for M:SMTPRouter.Server.#ctor(System.String,System.Int32,System.Boolean,System.Boolean,System.String,System.String)
+    Unique name M_SMTPRouter_Server__ctor_2 generated for M:SMTPRouter.Server.#ctor(System.String,System.Int32[],System.Boolean,System.Boolean,System.String,System.String)
+    Unique name M_SMTPRouter_Models_MailFromDomainRoutingRule__ctor_1 generated for M:SMTPRouter.Models.MailFromDomainRoutingRule.#ctor(System.Int32,System.String,System.String)
+    Unique name M_SMTPRouter_Models_MailFromRegexMatchRoutingRule__ctor_1 generated for M:SMTPRouter.Models.MailFromRegexMatchRoutingRule.#ctor(System.Int32,System.String,System.String)
+    Unique name M_SMTPRouter_Models_RoutingRule__ctor_1 generated for M:SMTPRouter.Models.RoutingRule.#ctor(System.Int32)
+    Unique name M_SMTPRouter_Windows_Configuration_ConfigFileParser__ctor_1 generated for M:SMTPRouter.Windows.Configuration.ConfigFileParser.#ctor(System.Configuration.Configuration)
+  XslTransform (v2017.12.30.2)
+  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\TransformManifest.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.56
+    Last step completed in 00:00:00.6951
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0170
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+D:\Diassoft\Sandcastle\SMTPRouter\icons\Nuget-Package-Icon-v01.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\Nuget-Package-Icon-v01.png
+D:\Diassoft\Sandcastle\SMTPRouter\icons\Nuget-Package-Icon-v01.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\Nuget-Package-Icon-v01.png
+D:\Diassoft\Sandcastle\SMTPRouter\icons\Nuget-Package-Icon-v01.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\Nuget-Package-Icon-v01.png
+    Last step completed in 00:00:00.0060
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateIntermediateTOC.proj]
+Build started 4/22/2018 9:24:24 PM.
+Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+GenerateIntermediateTOC:
+  XslTransform (v2017.12.30.2)
+  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.13
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.2290
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.2030
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\sandcastle.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00.0190
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildTopics.proj]
+Build started 4/22/2018 9:24:24 PM.
+Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
+BuildTopics:
+  BuildAssembler (v2017.12.30.2)
+  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:SMTPRouter] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:SMTPRouter] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:SMTPRouter] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.GeneralErrorEventArgs.#ctor(System.Exception,System.String)] Missing &lt;param name=&quot;exception&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.GeneralErrorEventArgs.#ctor(System.Exception,System.String)] Missing &lt;param name=&quot;methodName&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.Listener.Server] Unknown reference link target &#39;T:SmtpServer.SmtpServer&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.Listener.Server] Unknown reference link target &#39;T:SmtpServer.SmtpServer&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.Listener.Server] Unknown reference link target &#39;T:SmtpServer.SmtpServer&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:SMTPRouter.Listener.SessionCommandExecuting] Unknown reference link target &#39;T:SmtpServer.SmtpCommandExecutingEventArgs&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:SMTPRouter.Listener.SessionCommandExecuting] Unknown reference link target &#39;T:SmtpServer.SmtpCommandExecutingEventArgs&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:SMTPRouter.Listener.SessionCommandExecuting] Unknown reference link target &#39;T:SmtpServer.SmtpCommandExecutingEventArgs&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:SMTPRouter.Listener.SessionCompleted] Unknown reference link target &#39;T:SmtpServer.SessionEventArgs&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:SMTPRouter.Listener.SessionCompleted] Unknown reference link target &#39;T:SmtpServer.SessionEventArgs&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:SMTPRouter.Listener.SessionCompleted] Unknown reference link target &#39;T:SmtpServer.SessionEventArgs&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:SMTPRouter.Listener.SessionCreated] Unknown reference link target &#39;T:SmtpServer.SessionEventArgs&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:SMTPRouter.Listener.SessionCreated] Unknown reference link target &#39;T:SmtpServer.SessionEventArgs&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:SMTPRouter.Listener.SessionCreated] Unknown reference link target &#39;T:SmtpServer.SessionEventArgs&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.MessageErrorEventArgs] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.MessageErrorEventArgs] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.MessageErrorEventArgs] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageErrorEventArgs.#ctor(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageErrorEventArgs.#ctor(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageErrorEventArgs.#ctor(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageErrorEventArgs.#ctor(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageErrorEventArgs.#ctor(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageErrorEventArgs.#ctor(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageErrorEventArgs.#ctor(MimeKit.MimeMessage,System.Exception)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageErrorEventArgs.#ctor(MimeKit.MimeMessage,System.Exception)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageErrorEventArgs.#ctor(MimeKit.MimeMessage,System.Exception)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageErrorEventArgs.#ctor(MimeKit.MimeMessage,System.Exception)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageErrorEventArgs.#ctor(MimeKit.MimeMessage,System.Exception)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageErrorEventArgs.#ctor(MimeKit.MimeMessage,System.Exception)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageEventArgs.#ctor(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageEventArgs.#ctor(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageEventArgs.#ctor(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.MessageEventArgs.MimeMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.MessageEventArgs.MimeMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.MessageEventArgs.MimeMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.MessageNotQueuedException] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.MessageNotQueuedException] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.MessageNotQueuedException] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SMTPRouter.MessageNotQueuedException] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SMTPRouter.MessageNotQueuedException] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SMTPRouter.MessageNotQueuedException] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageNotQueuedException.#ctor(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageNotQueuedException.#ctor(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageNotQueuedException.#ctor(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageNotQueuedException.#ctor(MimeKit.MimeMessage,System.Exception)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageNotQueuedException.#ctor(MimeKit.MimeMessage,System.Exception)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageNotQueuedException.#ctor(MimeKit.MimeMessage,System.Exception)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.MessageNotSentException] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.MessageNotSentException] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.MessageNotSentException] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SMTPRouter.MessageNotSentException] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SMTPRouter.MessageNotSentException] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SMTPRouter.MessageNotSentException] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageNotSentException.#ctor(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageNotSentException.#ctor(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageNotSentException.#ctor(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageNotSentException.#ctor(MimeKit.MimeMessage,System.Exception)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageNotSentException.#ctor(MimeKit.MimeMessage,System.Exception)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MessageNotSentException.#ctor(MimeKit.MimeMessage,System.Exception)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.MimeMessageException] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.MimeMessageException] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.MimeMessageException] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SMTPRouter.MimeMessageException] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SMTPRouter.MimeMessageException] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SMTPRouter.MimeMessageException] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MimeMessageException.#ctor(System.String,MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MimeMessageException.#ctor(System.String,MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MimeMessageException.#ctor(System.String,MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MimeMessageException.#ctor(System.String,MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MimeMessageException.#ctor(System.String,MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MimeMessageException.#ctor(System.String,MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MimeMessageException.#ctor(System.String,MimeKit.MimeMessage,System.Exception)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MimeMessageException.#ctor(System.String,MimeKit.MimeMessage,System.Exception)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MimeMessageException.#ctor(System.String,MimeKit.MimeMessage,System.Exception)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MimeMessageException.#ctor(System.String,MimeKit.MimeMessage,System.Exception)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MimeMessageException.#ctor(System.String,MimeKit.MimeMessage,System.Exception)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.MimeMessageException.#ctor(System.String,MimeKit.MimeMessage,System.Exception)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.MimeMessageException.MimeMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.MimeMessageException.MimeMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.MimeMessageException.MimeMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.MimeMessageException.MimeMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.MimeMessageException.MimeMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.MimeMessageException.MimeMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Router.Enqueue(MimeKit.MimeMessage)] Missing &lt;param name=&quot;message&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Router.Enqueue(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Router.Enqueue(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Router.Enqueue(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Router.LoadSmtpConfiguration(System.String,System.Boolean)] Missing &lt;returns&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Router.StartAsync(System.Threading.CancellationToken)] Missing &lt;returns&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:SMTPRouter.Server.SessionCommandExecuting] Unknown reference link target &#39;T:SmtpServer.SmtpCommandExecutingEventArgs&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:SMTPRouter.Server.SessionCommandExecuting] Unknown reference link target &#39;T:SmtpServer.SmtpCommandExecutingEventArgs&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:SMTPRouter.Server.SessionCommandExecuting] Unknown reference link target &#39;T:SmtpServer.SmtpCommandExecutingEventArgs&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:SMTPRouter.Server.SessionCompleted] Unknown reference link target &#39;T:SmtpServer.SessionEventArgs&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:SMTPRouter.Server.SessionCompleted] Unknown reference link target &#39;T:SmtpServer.SessionEventArgs&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:SMTPRouter.Server.SessionCompleted] Unknown reference link target &#39;T:SmtpServer.SessionEventArgs&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:SMTPRouter.Server.SessionCreated] Unknown reference link target &#39;T:SmtpServer.SessionEventArgs&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:SMTPRouter.Server.SessionCreated] Unknown reference link target &#39;T:SmtpServer.SessionEventArgs&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [E:SMTPRouter.Server.SessionCreated] Unknown reference link target &#39;T:SmtpServer.SessionEventArgs&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Server.StartAsync(System.Threading.CancellationToken)] Missing &lt;returns&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:SMTPRouter.Models] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:SMTPRouter.Models] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:SMTPRouter.Models] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.MailFromDomainRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.MailFromDomainRoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.MailFromDomainRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.MailFromDomainRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.MailFromDomainRoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.MailFromDomainRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.MailFromDomainRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.MailFromDomainRoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.MailFromDomainRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.MailFromDomainRoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.MailFromDomainRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.MailFromDomainRoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.MailFromDomainRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.MailFromDomainRoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.MailFromDomainRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Models.MailFromDomainRoutingRule.Match(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Models.MailFromDomainRoutingRule.Match(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Models.MailFromDomainRoutingRule.Match(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.MailFromRegexMatchRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.MailFromRegexMatchRoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.MailFromRegexMatchRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.MailFromRegexMatchRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.MailFromRegexMatchRoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.MailFromRegexMatchRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.MailFromRegexMatchRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.MailFromRegexMatchRoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.MailFromRegexMatchRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.MailFromRegexMatchRoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.MailFromRegexMatchRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.MailFromRegexMatchRoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.MailFromRegexMatchRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.MailFromRegexMatchRoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.MailFromRegexMatchRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Models.MailFromRegexMatchRoutingRule.Match(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Models.MailFromRegexMatchRoutingRule.Match(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Models.MailFromRegexMatchRoutingRule.Match(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.Models.RoutingMessage.Message] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.Models.RoutingMessage.Message] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.Models.RoutingMessage.Message] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.Models.RoutingMessage.Message] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.Models.RoutingMessage.Message] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.Models.RoutingMessage.Message] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.Models.RoutingMessage.RawMessage] Unknown reference link target &#39;F:MimeKit.NewLineFormat.Dos&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.Models.RoutingMessage.RawMessage] Unknown reference link target &#39;F:MimeKit.NewLineFormat.Dos&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SMTPRouter.Models.RoutingMessage.RawMessage] Unknown reference link target &#39;F:MimeKit.NewLineFormat.Dos&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.OnPropertyChanged(System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.SetProperty``1(``0@,``0,System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.OnPropertyChanged(System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.SetProperty``1(``0@,``0,System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.OnPropertyChanged(System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.SetProperty``1(``0@,``0,System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.OnPropertyChanged(System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.SetProperty``1(``0@,``0,System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.OnPropertyChanged(System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.SetProperty``1(``0@,``0,System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.OnPropertyChanged(System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.SetProperty``1(``0@,``0,System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.RoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Models.RoutingRule.Match(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Models.RoutingRule.Match(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Models.RoutingRule.Match(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Models.RoutingRule.Match(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Models.RoutingRule.Match(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Models.RoutingRule.Match(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.OnPropertyChanged(System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.SetProperty``1(``0@,``0,System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.OnPropertyChanged(System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.SetProperty``1(``0@,``0,System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.OnPropertyChanged(System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.SetProperty``1(``0@,``0,System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.OnPropertyChanged(System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.SetProperty``1(``0@,``0,System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.OnPropertyChanged(System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.SetProperty``1(``0@,``0,System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.OnPropertyChanged(System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.SetProperty``1(``0@,``0,System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SMTPRouter.Windows.Configuration.ConfigFileParser] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.ConfigFileParser.#ctor(System.Configuration.Configuration)] Missing &lt;param name=&quot;config&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.ConfigFileParser.Config] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.ConfigFileParser.MessageLifespan] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.ConfigFileParser.MessagePurgeLifespan] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.ConfigFileParser.QueuePath] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.ConfigFileParser.RoutingRules] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.ConfigFileParser.SmtpConnections] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.ConfigFileParser.SmtpHost] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SMTPRouter.Windows.Configuration.NameValueSection] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.NameValueSection.Settings] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SMTPRouter.Windows.Configuration.RoutingRuleCollection] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.Add(SMTPRouter.Windows.Configuration.RoutingRuleElement)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.Add(SMTPRouter.Windows.Configuration.RoutingRuleElement)] Missing &lt;param name=&quot;element&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.Clear] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.IndexOf(SMTPRouter.Windows.Configuration.RoutingRuleElement)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.IndexOf(SMTPRouter.Windows.Configuration.RoutingRuleElement)] Missing &lt;returns&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.IndexOf(SMTPRouter.Windows.Configuration.RoutingRuleElement)] Missing &lt;param name=&quot;element&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.RoutingRuleCollection.Item(System.Int32)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.Remove(SMTPRouter.Windows.Configuration.RoutingRuleElement)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.Remove(SMTPRouter.Windows.Configuration.RoutingRuleElement)] Missing &lt;param name=&quot;element&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.RemoveAt(System.Int32)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.RemoveAt(System.Int32)] Missing &lt;param name=&quot;index&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SMTPRouter.Windows.Configuration.RoutingRuleElement] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.RoutingRuleElement.ExecutionSequence] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.RoutingRuleElement.Parameters] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.RoutingRuleElement.SmtpConfigurationKey] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleElement.ToString] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleElement.ToString] Missing &lt;returns&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.RoutingRuleElement.Type] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SMTPRouter.Windows.Configuration.RoutingRulesSection] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.RoutingRulesSection.RoutingRules] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SMTPRouter.Windows.Configuration.SmtpConnectionCollection] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.Add(SMTPRouter.Windows.Configuration.SmtpConnectionElement)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.Add(SMTPRouter.Windows.Configuration.SmtpConnectionElement)] Missing &lt;param name=&quot;element&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.Clear] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.IndexOf(SMTPRouter.Windows.Configuration.SmtpConnectionElement)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.IndexOf(SMTPRouter.Windows.Configuration.SmtpConnectionElement)] Missing &lt;returns&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.IndexOf(SMTPRouter.Windows.Configuration.SmtpConnectionElement)] Missing &lt;param name=&quot;element&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.Item(System.Int32)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.Remove(SMTPRouter.Windows.Configuration.SmtpConnectionElement)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.Remove(SMTPRouter.Windows.Configuration.SmtpConnectionElement)] Missing &lt;param name=&quot;element&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.RemoveAt(System.Int32)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.RemoveAt(System.Int32)] Missing &lt;param name=&quot;index&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SMTPRouter.Windows.Configuration.SmtpConnectionElement] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionElement.Description] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionElement.Host] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionElement.Key] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionElement.Password] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionElement.Port] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionElement.RequiresAuthentication] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionElement.ToString] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionElement.ToString] Missing &lt;returns&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionElement.User] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionElement.UseSSL] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SMTPRouter.Windows.Configuration.SmtpConnectionsSection] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionsSection.SmtpConnections] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+  Processed 263 topic(s)
+  315 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
+Done Building Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.02
+    Last step completed in 00:00:09.1610
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0030
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2017.12.30.2
+Copyright c 2006-2017, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1
+Processed 263 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\SMTPRouterDoc.hhk
+Saving HTML Help 1 table of contents to D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\SMTPRouterDoc.hhc
+
+Processing website files in D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website
+Processed 263 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\WebKI.xml
+Saving website table of contents to D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\WebTOC.xml
+    Last step completed in 00:00:00.3930
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\GeneralError.htm -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\html\GeneralError.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\PageNotFound.htm -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\html\PageNotFound.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:00.4380
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00.0080
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - Build1xHelpFile.proj]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling d:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\SMTPRouterDoc.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 6 seconds
+  
+  265	Topics
+  
+  2,605	Local links
+  
+  1,310	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created d:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\SMTPRouterDoc.chm, 276,740 bytes
+  
+  Compression decreased file by 2,202,999 bytes.
+  
+    Last step completed in 00:00:07.0648
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Executing informational Generate Table of Contents build step for plug-ins (not used for MS Help Viewer)
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Executing informational Generate Help Project build step for plug-ins (not used for MS Help Viewer)
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Generating MS Help Viewer file...
+[C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildHelpViewerFile.proj]
+  Compressing help content files...
+  Compression finished.  333 items added
+  Saving D:\Diassoft\Sandcastle\SMTPRouter\Help\SMTPRouterDoc.mshc...
+  Finished saving D:\Diassoft\Sandcastle\SMTPRouter\Help\SMTPRouterDoc.mshc
+  Compressed 4 folders, 329 files.  Reduced size by 1,819,649 bytes (73%).
+    Last step completed in 00:00:00.6530
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+Adding lightweight search and TOC elements to each topic...
+</plugIn>    Last step completed in 00:00:02.2830
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 443 files for the website content
+    Last step completed in 00:00:00.8310
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.7087
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 4/22/2018 9:24:46 PM.  Total time: 00:00:25.1377
+
+</buildStep>
+</shfbBuild>

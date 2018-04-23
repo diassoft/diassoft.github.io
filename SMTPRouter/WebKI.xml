@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Add method">
+    <HelpKINode Title="RoutingRuleCollection.Add Method " Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection_Add.htm" />
+    <HelpKINode Title="SmtpConnectionCollection.Add Method " Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_Add.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AttemptCount property" Url="html/P_SMTPRouter_Models_RoutingMessage_AttemptCount.htm" />
+  <HelpKINode Title="Clear method">
+    <HelpKINode Title="RoutingRuleCollection.Clear Method " Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection_Clear.htm" />
+    <HelpKINode Title="SmtpConnectionCollection.Clear Method " Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_Clear.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Config property" Url="html/P_SMTPRouter_Windows_Configuration_ConfigFileParser_Config.htm" />
+  <HelpKINode Title="ConfigFileParser class">
+    <HelpKINode Title="ConfigFileParser Class" Url="html/T_SMTPRouter_Windows_Configuration_ConfigFileParser.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SMTPRouter_Windows_Configuration_ConfigFileParser__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_ConfigFileParser.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_ConfigFileParser.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConfigFileParser.Config property" Url="html/P_SMTPRouter_Windows_Configuration_ConfigFileParser_Config.htm" />
+  <HelpKINode Title="ConfigFileParser.ConfigFileParser constructor" Url="html/Overload_SMTPRouter_Windows_Configuration_ConfigFileParser__ctor.htm" />
+  <HelpKINode Title="ConfigFileParser.MessageLifespan property" Url="html/P_SMTPRouter_Windows_Configuration_ConfigFileParser_MessageLifespan.htm" />
+  <HelpKINode Title="ConfigFileParser.MessagePurgeLifespan property" Url="html/P_SMTPRouter_Windows_Configuration_ConfigFileParser_MessagePurgeLifespan.htm" />
+  <HelpKINode Title="ConfigFileParser.QueuePath property" Url="html/P_SMTPRouter_Windows_Configuration_ConfigFileParser_QueuePath.htm" />
+  <HelpKINode Title="ConfigFileParser.RoutingRules property" Url="html/P_SMTPRouter_Windows_Configuration_ConfigFileParser_RoutingRules.htm" />
+  <HelpKINode Title="ConfigFileParser.SmtpConnections property" Url="html/P_SMTPRouter_Windows_Configuration_ConfigFileParser_SmtpConnections.htm" />
+  <HelpKINode Title="ConfigFileParser.SmtpHost property" Url="html/P_SMTPRouter_Windows_Configuration_ConfigFileParser_SmtpHost.htm" />
+  <HelpKINode Title="CreationDateTime property" Url="html/P_SMTPRouter_Models_RoutingMessage_CreationDateTime.htm" />
+  <HelpKINode Title="Description property">
+    <HelpKINode Title="SmtpConfiguration.Description Property " Url="html/P_SMTPRouter_Models_SmtpConfiguration_Description.htm" />
+    <HelpKINode Title="SmtpConnectionElement.Description Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_Description.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DestinationSmtps property">
+    <HelpKINode Title="Router.DestinationSmtps Property " Url="html/P_SMTPRouter_Router_DestinationSmtps.htm" />
+    <HelpKINode Title="Server.DestinationSmtps Property " Url="html/P_SMTPRouter_Server_DestinationSmtps.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Domain property" Url="html/P_SMTPRouter_Models_MailFromDomainRoutingRule_Domain.htm" />
+  <HelpKINode Title="Enqueue method" Url="html/M_SMTPRouter_Router_Enqueue.htm" />
+  <HelpKINode Title="ErrorFolder property" Url="html/P_SMTPRouter_WorkingFolders_ErrorFolder.htm" />
+  <HelpKINode Title="Exception property">
+    <HelpKINode Title="GeneralErrorEventArgs.Exception Property " Url="html/P_SMTPRouter_GeneralErrorEventArgs_Exception.htm" />
+    <HelpKINode Title="MessageErrorEventArgs.Exception Property " Url="html/P_SMTPRouter_MessageErrorEventArgs_Exception.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExecutionSequence property">
+    <HelpKINode Title="RoutingRule.ExecutionSequence Property " Url="html/P_SMTPRouter_Models_RoutingRule_ExecutionSequence.htm" />
+    <HelpKINode Title="RoutingRuleElement.ExecutionSequence Property " Url="html/P_SMTPRouter_Windows_Configuration_RoutingRuleElement_ExecutionSequence.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Folders property">
+    <HelpKINode Title="Router.Folders Property " Url="html/P_SMTPRouter_Router_Folders.htm" />
+    <HelpKINode Title="Server.Folders Property " Url="html/P_SMTPRouter_Server_Folders.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GeneralError event">
+    <HelpKINode Title="Router.GeneralError Event" Url="html/E_SMTPRouter_Router_GeneralError.htm" />
+    <HelpKINode Title="Server.GeneralError Event" Url="html/E_SMTPRouter_Server_GeneralError.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GeneralErrorEventArgs class">
+    <HelpKINode Title="GeneralErrorEventArgs Class" Url="html/T_SMTPRouter_GeneralErrorEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SMTPRouter_GeneralErrorEventArgs__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_GeneralErrorEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_GeneralErrorEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GeneralErrorEventArgs.Exception property" Url="html/P_SMTPRouter_GeneralErrorEventArgs_Exception.htm" />
+  <HelpKINode Title="GeneralErrorEventArgs.GeneralErrorEventArgs constructor" Url="html/M_SMTPRouter_GeneralErrorEventArgs__ctor.htm" />
+  <HelpKINode Title="GeneralErrorEventArgs.MethodName property" Url="html/P_SMTPRouter_GeneralErrorEventArgs_MethodName.htm" />
+  <HelpKINode Title="Host property">
+    <HelpKINode Title="SmtpConfiguration.Host Property " Url="html/P_SMTPRouter_Models_SmtpConfiguration_Host.htm" />
+    <HelpKINode Title="SmtpConnectionElement.Host Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_Host.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ID property" Url="html/P_SMTPRouter_Models_RoutingMessage_ID.htm" />
+  <HelpKINode Title="IndexOf method">
+    <HelpKINode Title="RoutingRuleCollection.IndexOf Method " Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection_IndexOf.htm" />
+    <HelpKINode Title="SmtpConnectionCollection.IndexOf Method " Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_IndexOf.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsInitialized property" Url="html/P_SMTPRouter_Router_IsInitialized.htm" />
+  <HelpKINode Title="IsListening property" Url="html/P_SMTPRouter_Listener_IsListening.htm" />
+  <HelpKINode Title="IsPaused property" Url="html/P_SMTPRouter_Router_IsPaused.htm" />
+  <HelpKINode Title="Item property">
+    <HelpKINode Title="RoutingRuleCollection.Item Property " Url="html/P_SMTPRouter_Windows_Configuration_RoutingRuleCollection_Item.htm" />
+    <HelpKINode Title="SmtpConnectionCollection.Item Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_Item.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Key property">
+    <HelpKINode Title="SmtpConfiguration.Key Property " Url="html/P_SMTPRouter_Models_SmtpConfiguration_Key.htm" />
+    <HelpKINode Title="SmtpConnectionElement.Key Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_Key.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Label property" Url="html/P_SMTPRouter_Models_RoutingMessage_Label.htm" />
+  <HelpKINode Title="Listener class">
+    <HelpKINode Title="Listener Class" Url="html/T_SMTPRouter_Listener.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SMTPRouter_Listener__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_SMTPRouter_Listener.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_Listener.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_Listener.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Listener property" Url="html/P_SMTPRouter_Server_Listener.htm" />
+  <HelpKINode Title="Listener.IsListening property" Url="html/P_SMTPRouter_Listener_IsListening.htm" />
+  <HelpKINode Title="Listener.Listener constructor" Url="html/Overload_SMTPRouter_Listener__ctor.htm" />
+  <HelpKINode Title="Listener.ListeningStarted event" Url="html/E_SMTPRouter_Listener_ListeningStarted.htm" />
+  <HelpKINode Title="Listener.MessageReceived event" Url="html/E_SMTPRouter_Listener_MessageReceived.htm" />
+  <HelpKINode Title="Listener.Ports property" Url="html/P_SMTPRouter_Listener_Ports.htm" />
+  <HelpKINode Title="Listener.RequiresAuthentication property" Url="html/P_SMTPRouter_Listener_RequiresAuthentication.htm" />
+  <HelpKINode Title="Listener.Server property" Url="html/P_SMTPRouter_Listener_Server.htm" />
+  <HelpKINode Title="Listener.ServerName property" Url="html/P_SMTPRouter_Listener_ServerName.htm" />
+  <HelpKINode Title="Listener.SessionCommandExecuting event" Url="html/E_SMTPRouter_Listener_SessionCommandExecuting.htm" />
+  <HelpKINode Title="Listener.SessionCompleted event" Url="html/E_SMTPRouter_Listener_SessionCompleted.htm" />
+  <HelpKINode Title="Listener.SessionCreated event" Url="html/E_SMTPRouter_Listener_SessionCreated.htm" />
+  <HelpKINode Title="Listener.StartAsync method" Url="html/M_SMTPRouter_Listener_StartAsync.htm" />
+  <HelpKINode Title="Listener.UseSSL property" Url="html/P_SMTPRouter_Listener_UseSSL.htm" />
+  <HelpKINode Title="ListeningStarted event">
+    <HelpKINode Title="Listener.ListeningStarted Event" Url="html/E_SMTPRouter_Listener_ListeningStarted.htm" />
+    <HelpKINode Title="Server.ListeningStarted Event" Url="html/E_SMTPRouter_Server_ListeningStarted.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoadRoutingRules method" Url="html/M_SMTPRouter_Router_LoadRoutingRules.htm" />
+  <HelpKINode Title="LoadSmtpConfiguration method" Url="html/M_SMTPRouter_Router_LoadSmtpConfiguration.htm" />
+  <HelpKINode Title="MailFromDomainRoutingRule class">
+    <HelpKINode Title="MailFromDomainRoutingRule Class" Url="html/T_SMTPRouter_Models_MailFromDomainRoutingRule.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SMTPRouter_Models_MailFromDomainRoutingRule__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_SMTPRouter_Models_MailFromDomainRoutingRule.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_Models_MailFromDomainRoutingRule.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_Models_MailFromDomainRoutingRule.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MailFromDomainRoutingRule.Domain property" Url="html/P_SMTPRouter_Models_MailFromDomainRoutingRule_Domain.htm" />
+  <HelpKINode Title="MailFromDomainRoutingRule.MailFromDomainRoutingRule constructor" Url="html/Overload_SMTPRouter_Models_MailFromDomainRoutingRule__ctor.htm" />
+  <HelpKINode Title="MailFromDomainRoutingRule.Match method" Url="html/M_SMTPRouter_Models_MailFromDomainRoutingRule_Match.htm" />
+  <HelpKINode Title="MailFromRegexMatchRoutingRule class">
+    <HelpKINode Title="MailFromRegexMatchRoutingRule Class" Url="html/T_SMTPRouter_Models_MailFromRegexMatchRoutingRule.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SMTPRouter_Models_MailFromRegexMatchRoutingRule__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_SMTPRouter_Models_MailFromRegexMatchRoutingRule.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_Models_MailFromRegexMatchRoutingRule.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_Models_MailFromRegexMatchRoutingRule.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MailFromRegexMatchRoutingRule.MailFromRegexMatchRoutingRule constructor" Url="html/Overload_SMTPRouter_Models_MailFromRegexMatchRoutingRule__ctor.htm" />
+  <HelpKINode Title="MailFromRegexMatchRoutingRule.Match method" Url="html/M_SMTPRouter_Models_MailFromRegexMatchRoutingRule_Match.htm" />
+  <HelpKINode Title="MailFromRegexMatchRoutingRule.RegexExpression property" Url="html/P_SMTPRouter_Models_MailFromRegexMatchRoutingRule_RegexExpression.htm" />
+  <HelpKINode Title="Match method">
+    <HelpKINode Title="MailFromDomainRoutingRule.Match Method " Url="html/M_SMTPRouter_Models_MailFromDomainRoutingRule_Match.htm" />
+    <HelpKINode Title="MailFromRegexMatchRoutingRule.Match Method " Url="html/M_SMTPRouter_Models_MailFromRegexMatchRoutingRule_Match.htm" />
+    <HelpKINode Title="RoutingRule.Match Method " Url="html/M_SMTPRouter_Models_RoutingRule_Match.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Message property" Url="html/P_SMTPRouter_Models_RoutingMessage_Message.htm" />
+  <HelpKINode Title="MessageErrorEventArgs class">
+    <HelpKINode Title="MessageErrorEventArgs Class" Url="html/T_SMTPRouter_MessageErrorEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SMTPRouter_MessageErrorEventArgs__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_MessageErrorEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_MessageErrorEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MessageErrorEventArgs.Exception property" Url="html/P_SMTPRouter_MessageErrorEventArgs_Exception.htm" />
+  <HelpKINode Title="MessageErrorEventArgs.MessageErrorEventArgs constructor" Url="html/Overload_SMTPRouter_MessageErrorEventArgs__ctor.htm" />
+  <HelpKINode Title="MessageEventArgs class">
+    <HelpKINode Title="MessageEventArgs Class" Url="html/T_SMTPRouter_MessageEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SMTPRouter_MessageEventArgs__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_MessageEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_MessageEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MessageEventArgs.MessageEventArgs constructor" Url="html/Overload_SMTPRouter_MessageEventArgs__ctor.htm" />
+  <HelpKINode Title="MessageEventArgs.MimeMessage property" Url="html/P_SMTPRouter_MessageEventArgs_MimeMessage.htm" />
+  <HelpKINode Title="MessageLifespan property">
+    <HelpKINode Title="ConfigFileParser.MessageLifespan Property " Url="html/P_SMTPRouter_Windows_Configuration_ConfigFileParser_MessageLifespan.htm" />
+    <HelpKINode Title="Router.MessageLifespan Property " Url="html/P_SMTPRouter_Router_MessageLifespan.htm" />
+    <HelpKINode Title="Server.MessageLifespan Property " Url="html/P_SMTPRouter_Server_MessageLifespan.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MessageNotQueuedException class">
+    <HelpKINode Title="MessageNotQueuedException Class" Url="html/T_SMTPRouter_MessageNotQueuedException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SMTPRouter_MessageNotQueuedException__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_MessageNotQueuedException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_MessageNotQueuedException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MessageNotQueuedException.MessageNotQueuedException constructor" Url="html/Overload_SMTPRouter_MessageNotQueuedException__ctor.htm" />
+  <HelpKINode Title="MessageNotRouted event">
+    <HelpKINode Title="Router.MessageNotRouted Event" Url="html/E_SMTPRouter_Router_MessageNotRouted.htm" />
+    <HelpKINode Title="Server.MessageNotRouted Event" Url="html/E_SMTPRouter_Server_MessageNotRouted.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MessageNotSentException class">
+    <HelpKINode Title="MessageNotSentException Class" Url="html/T_SMTPRouter_MessageNotSentException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SMTPRouter_MessageNotSentException__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_MessageNotSentException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_MessageNotSentException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MessageNotSentException.MessageNotSentException constructor" Url="html/Overload_SMTPRouter_MessageNotSentException__ctor.htm" />
+  <HelpKINode Title="MessagePurgeLifespan property">
+    <HelpKINode Title="ConfigFileParser.MessagePurgeLifespan Property " Url="html/P_SMTPRouter_Windows_Configuration_ConfigFileParser_MessagePurgeLifespan.htm" />
+    <HelpKINode Title="Router.MessagePurgeLifespan Property " Url="html/P_SMTPRouter_Router_MessagePurgeLifespan.htm" />
+    <HelpKINode Title="Server.MessagePurgeLifespan Property " Url="html/P_SMTPRouter_Server_MessagePurgeLifespan.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MessageReceived event">
+    <HelpKINode Title="Listener.MessageReceived Event" Url="html/E_SMTPRouter_Listener_MessageReceived.htm" />
+    <HelpKINode Title="Server.MessageReceived Event" Url="html/E_SMTPRouter_Server_MessageReceived.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MessageRoutedSuccessfully event">
+    <HelpKINode Title="Router.MessageRoutedSuccessfully Event" Url="html/E_SMTPRouter_Router_MessageRoutedSuccessfully.htm" />
+    <HelpKINode Title="Server.MessageRoutedSuccessfully Event" Url="html/E_SMTPRouter_Server_MessageRoutedSuccessfully.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MethodName property" Url="html/P_SMTPRouter_GeneralErrorEventArgs_MethodName.htm" />
+  <HelpKINode Title="MimeMessage property">
+    <HelpKINode Title="MessageEventArgs.MimeMessage Property " Url="html/P_SMTPRouter_MessageEventArgs_MimeMessage.htm" />
+    <HelpKINode Title="MimeMessageException.MimeMessage Property " Url="html/P_SMTPRouter_MimeMessageException_MimeMessage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MimeMessageException class">
+    <HelpKINode Title="MimeMessageException Class" Url="html/T_SMTPRouter_MimeMessageException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SMTPRouter_MimeMessageException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_SMTPRouter_MimeMessageException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_MimeMessageException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_MimeMessageException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MimeMessageException.MimeMessage property" Url="html/P_SMTPRouter_MimeMessageException_MimeMessage.htm" />
+  <HelpKINode Title="MimeMessageException.MimeMessageException constructor" Url="html/Overload_SMTPRouter_MimeMessageException__ctor.htm" />
+  <HelpKINode Title="NameValueSection class">
+    <HelpKINode Title="NameValueSection Class" Url="html/T_SMTPRouter_Windows_Configuration_NameValueSection.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SMTPRouter_Windows_Configuration_NameValueSection__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_NameValueSection.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_NameValueSection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NameValueSection.NameValueSection constructor" Url="html/M_SMTPRouter_Windows_Configuration_NameValueSection__ctor.htm" />
+  <HelpKINode Title="NameValueSection.Settings property" Url="html/P_SMTPRouter_Windows_Configuration_NameValueSection_Settings.htm" />
+  <HelpKINode Title="OutgoingFolder property" Url="html/P_SMTPRouter_WorkingFolders_OutgoingFolder.htm" />
+  <HelpKINode Title="Parameters property" Url="html/P_SMTPRouter_Windows_Configuration_RoutingRuleElement_Parameters.htm" />
+  <HelpKINode Title="Password property">
+    <HelpKINode Title="SmtpConfiguration.Password Property " Url="html/P_SMTPRouter_Models_SmtpConfiguration_Password.htm" />
+    <HelpKINode Title="SmtpConnectionElement.Password Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_Password.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Port property">
+    <HelpKINode Title="SmtpConfiguration.Port Property " Url="html/P_SMTPRouter_Models_SmtpConfiguration_Port.htm" />
+    <HelpKINode Title="SmtpConnectionElement.Port Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_Port.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Ports property">
+    <HelpKINode Title="Listener.Ports Property " Url="html/P_SMTPRouter_Listener_Ports.htm" />
+    <HelpKINode Title="Server.Ports Property " Url="html/P_SMTPRouter_Server_Ports.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PurgeQueues method" Url="html/M_SMTPRouter_Router_PurgeQueues.htm" />
+  <HelpKINode Title="QueueName property">
+    <HelpKINode Title="Router.QueueName Property " Url="html/P_SMTPRouter_Router_QueueName.htm" />
+    <HelpKINode Title="Server.QueueName Property " Url="html/P_SMTPRouter_Server_QueueName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="QueuePath property">
+    <HelpKINode Title="ConfigFileParser.QueuePath Property " Url="html/P_SMTPRouter_Windows_Configuration_ConfigFileParser_QueuePath.htm" />
+    <HelpKINode Title="Router.QueuePath Property " Url="html/P_SMTPRouter_Router_QueuePath.htm" />
+    <HelpKINode Title="Server.QueuePath Property " Url="html/P_SMTPRouter_Server_QueuePath.htm" />
+  </HelpKINode>
+  <HelpKINode Title="QueuesNotInitializedException class">
+    <HelpKINode Title="QueuesNotInitializedException Class" Url="html/T_SMTPRouter_QueuesNotInitializedException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SMTPRouter_QueuesNotInitializedException__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_QueuesNotInitializedException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_QueuesNotInitializedException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="QueuesNotInitializedException.QueuesNotInitializedException constructor" Url="html/Overload_SMTPRouter_QueuesNotInitializedException__ctor.htm" />
+  <HelpKINode Title="RawMessage property" Url="html/P_SMTPRouter_Models_RoutingMessage_RawMessage.htm" />
+  <HelpKINode Title="RegexExpression property" Url="html/P_SMTPRouter_Models_MailFromRegexMatchRoutingRule_RegexExpression.htm" />
+  <HelpKINode Title="Remove method">
+    <HelpKINode Title="RoutingRuleCollection.Remove Method " Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection_Remove.htm" />
+    <HelpKINode Title="SmtpConnectionCollection.Remove Method " Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_Remove.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RemoveAt method">
+    <HelpKINode Title="RoutingRuleCollection.RemoveAt Method " Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection_RemoveAt.htm" />
+    <HelpKINode Title="SmtpConnectionCollection.RemoveAt Method " Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_RemoveAt.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RequiresAuthentication property">
+    <HelpKINode Title="Listener.RequiresAuthentication Property " Url="html/P_SMTPRouter_Listener_RequiresAuthentication.htm" />
+    <HelpKINode Title="Server.RequiresAuthentication Property " Url="html/P_SMTPRouter_Server_RequiresAuthentication.htm" />
+    <HelpKINode Title="SmtpConfiguration.RequiresAuthentication Property " Url="html/P_SMTPRouter_Models_SmtpConfiguration_RequiresAuthentication.htm" />
+    <HelpKINode Title="SmtpConnectionElement.RequiresAuthentication Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_RequiresAuthentication.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RetryFolder property" Url="html/P_SMTPRouter_WorkingFolders_RetryFolder.htm" />
+  <HelpKINode Title="RootFolder property" Url="html/P_SMTPRouter_WorkingFolders_RootFolder.htm" />
+  <HelpKINode Title="Router class">
+    <HelpKINode Title="Router Class" Url="html/T_SMTPRouter_Router.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SMTPRouter_Router__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_SMTPRouter_Router.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_Router.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_Router.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Router property" Url="html/P_SMTPRouter_Server_Router.htm" />
+  <HelpKINode Title="Router.DestinationSmtps property" Url="html/P_SMTPRouter_Router_DestinationSmtps.htm" />
+  <HelpKINode Title="Router.Enqueue method" Url="html/M_SMTPRouter_Router_Enqueue.htm" />
+  <HelpKINode Title="Router.Folders property" Url="html/P_SMTPRouter_Router_Folders.htm" />
+  <HelpKINode Title="Router.GeneralError event" Url="html/E_SMTPRouter_Router_GeneralError.htm" />
+  <HelpKINode Title="Router.IsInitialized property" Url="html/P_SMTPRouter_Router_IsInitialized.htm" />
+  <HelpKINode Title="Router.IsPaused property" Url="html/P_SMTPRouter_Router_IsPaused.htm" />
+  <HelpKINode Title="Router.LoadRoutingRules method" Url="html/M_SMTPRouter_Router_LoadRoutingRules.htm" />
+  <HelpKINode Title="Router.LoadSmtpConfiguration method" Url="html/M_SMTPRouter_Router_LoadSmtpConfiguration.htm" />
+  <HelpKINode Title="Router.MessageLifespan property" Url="html/P_SMTPRouter_Router_MessageLifespan.htm" />
+  <HelpKINode Title="Router.MessageNotRouted event" Url="html/E_SMTPRouter_Router_MessageNotRouted.htm" />
+  <HelpKINode Title="Router.MessagePurgeLifespan property" Url="html/P_SMTPRouter_Router_MessagePurgeLifespan.htm" />
+  <HelpKINode Title="Router.MessageRoutedSuccessfully event" Url="html/E_SMTPRouter_Router_MessageRoutedSuccessfully.htm" />
+  <HelpKINode Title="Router.PurgeQueues method" Url="html/M_SMTPRouter_Router_PurgeQueues.htm" />
+  <HelpKINode Title="Router.QueueName property" Url="html/P_SMTPRouter_Router_QueueName.htm" />
+  <HelpKINode Title="Router.QueuePath property" Url="html/P_SMTPRouter_Router_QueuePath.htm" />
+  <HelpKINode Title="Router.Router constructor" Url="html/Overload_SMTPRouter_Router__ctor.htm" />
+  <HelpKINode Title="Router.RoutingRules property" Url="html/P_SMTPRouter_Router_RoutingRules.htm" />
+  <HelpKINode Title="Router.SaveRoutingRules method" Url="html/M_SMTPRouter_Router_SaveRoutingRules.htm" />
+  <HelpKINode Title="Router.SaveSmtpConfiguration method" Url="html/M_SMTPRouter_Router_SaveSmtpConfiguration.htm" />
+  <HelpKINode Title="Router.StartAsync method" Url="html/M_SMTPRouter_Router_StartAsync.htm" />
+  <HelpKINode Title="RoutingMessage class">
+    <HelpKINode Title="RoutingMessage Class" Url="html/T_SMTPRouter_Models_RoutingMessage.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SMTPRouter_Models_RoutingMessage__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_SMTPRouter_Models_RoutingMessage.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_Models_RoutingMessage.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_Models_RoutingMessage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RoutingMessage.AttemptCount property" Url="html/P_SMTPRouter_Models_RoutingMessage_AttemptCount.htm" />
+  <HelpKINode Title="RoutingMessage.CreationDateTime property" Url="html/P_SMTPRouter_Models_RoutingMessage_CreationDateTime.htm" />
+  <HelpKINode Title="RoutingMessage.ID property" Url="html/P_SMTPRouter_Models_RoutingMessage_ID.htm" />
+  <HelpKINode Title="RoutingMessage.Label property" Url="html/P_SMTPRouter_Models_RoutingMessage_Label.htm" />
+  <HelpKINode Title="RoutingMessage.Message property" Url="html/P_SMTPRouter_Models_RoutingMessage_Message.htm" />
+  <HelpKINode Title="RoutingMessage.RawMessage property" Url="html/P_SMTPRouter_Models_RoutingMessage_RawMessage.htm" />
+  <HelpKINode Title="RoutingMessage.RoutingMessage constructor" Url="html/M_SMTPRouter_Models_RoutingMessage__ctor.htm" />
+  <HelpKINode Title="RoutingRule class">
+    <HelpKINode Title="RoutingRule Class" Url="html/T_SMTPRouter_Models_RoutingRule.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SMTPRouter_Models_RoutingRule__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_SMTPRouter_Models_RoutingRule.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_Models_RoutingRule.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_Models_RoutingRule.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RoutingRule.ExecutionSequence property" Url="html/P_SMTPRouter_Models_RoutingRule_ExecutionSequence.htm" />
+  <HelpKINode Title="RoutingRule.Match method" Url="html/M_SMTPRouter_Models_RoutingRule_Match.htm" />
+  <HelpKINode Title="RoutingRule.RoutingRule constructor" Url="html/Overload_SMTPRouter_Models_RoutingRule__ctor.htm" />
+  <HelpKINode Title="RoutingRule.SmtpConfigurationKey property" Url="html/P_SMTPRouter_Models_RoutingRule_SmtpConfigurationKey.htm" />
+  <HelpKINode Title="RoutingRuleCollection class">
+    <HelpKINode Title="RoutingRuleCollection Class" Url="html/T_SMTPRouter_Windows_Configuration_RoutingRuleCollection.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_RoutingRuleCollection.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_RoutingRuleCollection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RoutingRuleCollection.Add method" Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection_Add.htm" />
+  <HelpKINode Title="RoutingRuleCollection.Clear method" Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection_Clear.htm" />
+  <HelpKINode Title="RoutingRuleCollection.IndexOf method" Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection_IndexOf.htm" />
+  <HelpKINode Title="RoutingRuleCollection.Item property" Url="html/P_SMTPRouter_Windows_Configuration_RoutingRuleCollection_Item.htm" />
+  <HelpKINode Title="RoutingRuleCollection.Remove method" Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection_Remove.htm" />
+  <HelpKINode Title="RoutingRuleCollection.RemoveAt method" Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection_RemoveAt.htm" />
+  <HelpKINode Title="RoutingRuleCollection.RoutingRuleCollection constructor" Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection__ctor.htm" />
+  <HelpKINode Title="RoutingRuleElement class">
+    <HelpKINode Title="RoutingRuleElement Class" Url="html/T_SMTPRouter_Windows_Configuration_RoutingRuleElement.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleElement__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_RoutingRuleElement.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_RoutingRuleElement.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RoutingRuleElement.ExecutionSequence property" Url="html/P_SMTPRouter_Windows_Configuration_RoutingRuleElement_ExecutionSequence.htm" />
+  <HelpKINode Title="RoutingRuleElement.Parameters property" Url="html/P_SMTPRouter_Windows_Configuration_RoutingRuleElement_Parameters.htm" />
+  <HelpKINode Title="RoutingRuleElement.RoutingRuleElement constructor" Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleElement__ctor.htm" />
+  <HelpKINode Title="RoutingRuleElement.SmtpConfigurationKey property" Url="html/P_SMTPRouter_Windows_Configuration_RoutingRuleElement_SmtpConfigurationKey.htm" />
+  <HelpKINode Title="RoutingRuleElement.ToString method" Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleElement_ToString.htm" />
+  <HelpKINode Title="RoutingRuleElement.Type property" Url="html/P_SMTPRouter_Windows_Configuration_RoutingRuleElement_Type.htm" />
+  <HelpKINode Title="RoutingRules property">
+    <HelpKINode Title="ConfigFileParser.RoutingRules Property " Url="html/P_SMTPRouter_Windows_Configuration_ConfigFileParser_RoutingRules.htm" />
+    <HelpKINode Title="Router.RoutingRules Property " Url="html/P_SMTPRouter_Router_RoutingRules.htm" />
+    <HelpKINode Title="RoutingRulesSection.RoutingRules Property " Url="html/P_SMTPRouter_Windows_Configuration_RoutingRulesSection_RoutingRules.htm" />
+    <HelpKINode Title="Server.RoutingRules Property " Url="html/P_SMTPRouter_Server_RoutingRules.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RoutingRulesSection class">
+    <HelpKINode Title="RoutingRulesSection Class" Url="html/T_SMTPRouter_Windows_Configuration_RoutingRulesSection.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SMTPRouter_Windows_Configuration_RoutingRulesSection__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_RoutingRulesSection.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_RoutingRulesSection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RoutingRulesSection.RoutingRules property" Url="html/P_SMTPRouter_Windows_Configuration_RoutingRulesSection_RoutingRules.htm" />
+  <HelpKINode Title="RoutingRulesSection.RoutingRulesSection constructor" Url="html/M_SMTPRouter_Windows_Configuration_RoutingRulesSection__ctor.htm" />
+  <HelpKINode Title="SaveRoutingRules method" Url="html/M_SMTPRouter_Router_SaveRoutingRules.htm" />
+  <HelpKINode Title="SaveSmtpConfiguration method" Url="html/M_SMTPRouter_Router_SaveSmtpConfiguration.htm" />
+  <HelpKINode Title="SentFolder property" Url="html/P_SMTPRouter_WorkingFolders_SentFolder.htm" />
+  <HelpKINode Title="Server class">
+    <HelpKINode Title="Server Class" Url="html/T_SMTPRouter_Server.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SMTPRouter_Server__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_SMTPRouter_Server.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_Server.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_Server.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Server property" Url="html/P_SMTPRouter_Listener_Server.htm" />
+  <HelpKINode Title="Server.DestinationSmtps property" Url="html/P_SMTPRouter_Server_DestinationSmtps.htm" />
+  <HelpKINode Title="Server.Folders property" Url="html/P_SMTPRouter_Server_Folders.htm" />
+  <HelpKINode Title="Server.GeneralError event" Url="html/E_SMTPRouter_Server_GeneralError.htm" />
+  <HelpKINode Title="Server.Listener property" Url="html/P_SMTPRouter_Server_Listener.htm" />
+  <HelpKINode Title="Server.ListeningStarted event" Url="html/E_SMTPRouter_Server_ListeningStarted.htm" />
+  <HelpKINode Title="Server.MessageLifespan property" Url="html/P_SMTPRouter_Server_MessageLifespan.htm" />
+  <HelpKINode Title="Server.MessageNotRouted event" Url="html/E_SMTPRouter_Server_MessageNotRouted.htm" />
+  <HelpKINode Title="Server.MessagePurgeLifespan property" Url="html/P_SMTPRouter_Server_MessagePurgeLifespan.htm" />
+  <HelpKINode Title="Server.MessageReceived event" Url="html/E_SMTPRouter_Server_MessageReceived.htm" />
+  <HelpKINode Title="Server.MessageRoutedSuccessfully event" Url="html/E_SMTPRouter_Server_MessageRoutedSuccessfully.htm" />
+  <HelpKINode Title="Server.Ports property" Url="html/P_SMTPRouter_Server_Ports.htm" />
+  <HelpKINode Title="Server.QueueName property" Url="html/P_SMTPRouter_Server_QueueName.htm" />
+  <HelpKINode Title="Server.QueuePath property" Url="html/P_SMTPRouter_Server_QueuePath.htm" />
+  <HelpKINode Title="Server.RequiresAuthentication property" Url="html/P_SMTPRouter_Server_RequiresAuthentication.htm" />
+  <HelpKINode Title="Server.Router property" Url="html/P_SMTPRouter_Server_Router.htm" />
+  <HelpKINode Title="Server.RoutingRules property" Url="html/P_SMTPRouter_Server_RoutingRules.htm" />
+  <HelpKINode Title="Server.Server constructor" Url="html/Overload_SMTPRouter_Server__ctor.htm" />
+  <HelpKINode Title="Server.ServerName property" Url="html/P_SMTPRouter_Server_ServerName.htm" />
+  <HelpKINode Title="Server.SessionCommandExecuting event" Url="html/E_SMTPRouter_Server_SessionCommandExecuting.htm" />
+  <HelpKINode Title="Server.SessionCompleted event" Url="html/E_SMTPRouter_Server_SessionCompleted.htm" />
+  <HelpKINode Title="Server.SessionCreated event" Url="html/E_SMTPRouter_Server_SessionCreated.htm" />
+  <HelpKINode Title="Server.StartAsync method" Url="html/M_SMTPRouter_Server_StartAsync.htm" />
+  <HelpKINode Title="Server.UseSSL property" Url="html/P_SMTPRouter_Server_UseSSL.htm" />
+  <HelpKINode Title="ServerName property">
+    <HelpKINode Title="Listener.ServerName Property " Url="html/P_SMTPRouter_Listener_ServerName.htm" />
+    <HelpKINode Title="Server.ServerName Property " Url="html/P_SMTPRouter_Server_ServerName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SessionCommandExecuting event">
+    <HelpKINode Title="Listener.SessionCommandExecuting Event" Url="html/E_SMTPRouter_Listener_SessionCommandExecuting.htm" />
+    <HelpKINode Title="Server.SessionCommandExecuting Event" Url="html/E_SMTPRouter_Server_SessionCommandExecuting.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SessionCompleted event">
+    <HelpKINode Title="Listener.SessionCompleted Event" Url="html/E_SMTPRouter_Listener_SessionCompleted.htm" />
+    <HelpKINode Title="Server.SessionCompleted Event" Url="html/E_SMTPRouter_Server_SessionCompleted.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SessionCreated event">
+    <HelpKINode Title="Listener.SessionCreated Event" Url="html/E_SMTPRouter_Listener_SessionCreated.htm" />
+    <HelpKINode Title="Server.SessionCreated Event" Url="html/E_SMTPRouter_Server_SessionCreated.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Settings property" Url="html/P_SMTPRouter_Windows_Configuration_NameValueSection_Settings.htm" />
+  <HelpKINode Title="SmtpConfiguration class">
+    <HelpKINode Title="SmtpConfiguration Class" Url="html/T_SMTPRouter_Models_SmtpConfiguration.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SMTPRouter_Models_SmtpConfiguration__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_SMTPRouter_Models_SmtpConfiguration.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_Models_SmtpConfiguration.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_Models_SmtpConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SmtpConfiguration.Description property" Url="html/P_SMTPRouter_Models_SmtpConfiguration_Description.htm" />
+  <HelpKINode Title="SmtpConfiguration.Host property" Url="html/P_SMTPRouter_Models_SmtpConfiguration_Host.htm" />
+  <HelpKINode Title="SmtpConfiguration.Key property" Url="html/P_SMTPRouter_Models_SmtpConfiguration_Key.htm" />
+  <HelpKINode Title="SmtpConfiguration.Password property" Url="html/P_SMTPRouter_Models_SmtpConfiguration_Password.htm" />
+  <HelpKINode Title="SmtpConfiguration.Port property" Url="html/P_SMTPRouter_Models_SmtpConfiguration_Port.htm" />
+  <HelpKINode Title="SmtpConfiguration.RequiresAuthentication property" Url="html/P_SMTPRouter_Models_SmtpConfiguration_RequiresAuthentication.htm" />
+  <HelpKINode Title="SmtpConfiguration.SmtpConfiguration constructor" Url="html/M_SMTPRouter_Models_SmtpConfiguration__ctor.htm" />
+  <HelpKINode Title="SmtpConfiguration.User property" Url="html/P_SMTPRouter_Models_SmtpConfiguration_User.htm" />
+  <HelpKINode Title="SmtpConfiguration.UseSSL property" Url="html/P_SMTPRouter_Models_SmtpConfiguration_UseSSL.htm" />
+  <HelpKINode Title="SmtpConfigurationKey property">
+    <HelpKINode Title="RoutingRule.SmtpConfigurationKey Property " Url="html/P_SMTPRouter_Models_RoutingRule_SmtpConfigurationKey.htm" />
+    <HelpKINode Title="RoutingRuleElement.SmtpConfigurationKey Property " Url="html/P_SMTPRouter_Windows_Configuration_RoutingRuleElement_SmtpConfigurationKey.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SmtpConnectionCollection class">
+    <HelpKINode Title="SmtpConnectionCollection Class" Url="html/T_SMTPRouter_Windows_Configuration_SmtpConnectionCollection.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_SmtpConnectionCollection.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_SmtpConnectionCollection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SmtpConnectionCollection.Add method" Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_Add.htm" />
+  <HelpKINode Title="SmtpConnectionCollection.Clear method" Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_Clear.htm" />
+  <HelpKINode Title="SmtpConnectionCollection.IndexOf method" Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_IndexOf.htm" />
+  <HelpKINode Title="SmtpConnectionCollection.Item property" Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_Item.htm" />
+  <HelpKINode Title="SmtpConnectionCollection.Remove method" Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_Remove.htm" />
+  <HelpKINode Title="SmtpConnectionCollection.RemoveAt method" Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_RemoveAt.htm" />
+  <HelpKINode Title="SmtpConnectionCollection.SmtpConnectionCollection constructor" Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection__ctor.htm" />
+  <HelpKINode Title="SmtpConnectionElement class">
+    <HelpKINode Title="SmtpConnectionElement Class" Url="html/T_SMTPRouter_Windows_Configuration_SmtpConnectionElement.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionElement__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_SmtpConnectionElement.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_SmtpConnectionElement.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SmtpConnectionElement.Description property" Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_Description.htm" />
+  <HelpKINode Title="SmtpConnectionElement.Host property" Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_Host.htm" />
+  <HelpKINode Title="SmtpConnectionElement.Key property" Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_Key.htm" />
+  <HelpKINode Title="SmtpConnectionElement.Password property" Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_Password.htm" />
+  <HelpKINode Title="SmtpConnectionElement.Port property" Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_Port.htm" />
+  <HelpKINode Title="SmtpConnectionElement.RequiresAuthentication property" Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_RequiresAuthentication.htm" />
+  <HelpKINode Title="SmtpConnectionElement.SmtpConnectionElement constructor" Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionElement__ctor.htm" />
+  <HelpKINode Title="SmtpConnectionElement.ToString method" Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionElement_ToString.htm" />
+  <HelpKINode Title="SmtpConnectionElement.User property" Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_User.htm" />
+  <HelpKINode Title="SmtpConnectionElement.UseSSL property" Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_UseSSL.htm" />
+  <HelpKINode Title="SmtpConnections property">
+    <HelpKINode Title="ConfigFileParser.SmtpConnections Property " Url="html/P_SMTPRouter_Windows_Configuration_ConfigFileParser_SmtpConnections.htm" />
+    <HelpKINode Title="SmtpConnectionsSection.SmtpConnections Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionsSection_SmtpConnections.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SmtpConnectionsSection class">
+    <HelpKINode Title="SmtpConnectionsSection Class" Url="html/T_SMTPRouter_Windows_Configuration_SmtpConnectionsSection.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionsSection__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_SmtpConnectionsSection.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_SmtpConnectionsSection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SmtpConnectionsSection.SmtpConnections property" Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionsSection_SmtpConnections.htm" />
+  <HelpKINode Title="SmtpConnectionsSection.SmtpConnectionsSection constructor" Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionsSection__ctor.htm" />
+  <HelpKINode Title="SmtpHost property" Url="html/P_SMTPRouter_Windows_Configuration_ConfigFileParser_SmtpHost.htm" />
+  <HelpKINode Title="SMTPRouter namespace" Url="html/N_SMTPRouter.htm" />
+  <HelpKINode Title="SMTPRouter.GeneralErrorEventArgs class" Url="html/T_SMTPRouter_GeneralErrorEventArgs.htm" />
+  <HelpKINode Title="SMTPRouter.Listener class" Url="html/T_SMTPRouter_Listener.htm" />
+  <HelpKINode Title="SMTPRouter.MessageErrorEventArgs class" Url="html/T_SMTPRouter_MessageErrorEventArgs.htm" />
+  <HelpKINode Title="SMTPRouter.MessageEventArgs class" Url="html/T_SMTPRouter_MessageEventArgs.htm" />
+  <HelpKINode Title="SMTPRouter.MessageNotQueuedException class" Url="html/T_SMTPRouter_MessageNotQueuedException.htm" />
+  <HelpKINode Title="SMTPRouter.MessageNotSentException class" Url="html/T_SMTPRouter_MessageNotSentException.htm" />
+  <HelpKINode Title="SMTPRouter.MimeMessageException class" Url="html/T_SMTPRouter_MimeMessageException.htm" />
+  <HelpKINode Title="SMTPRouter.Models namespace" Url="html/N_SMTPRouter_Models.htm" />
+  <HelpKINode Title="SMTPRouter.Models.MailFromDomainRoutingRule class" Url="html/T_SMTPRouter_Models_MailFromDomainRoutingRule.htm" />
+  <HelpKINode Title="SMTPRouter.Models.MailFromRegexMatchRoutingRule class" Url="html/T_SMTPRouter_Models_MailFromRegexMatchRoutingRule.htm" />
+  <HelpKINode Title="SMTPRouter.Models.RoutingMessage class" Url="html/T_SMTPRouter_Models_RoutingMessage.htm" />
+  <HelpKINode Title="SMTPRouter.Models.RoutingRule class" Url="html/T_SMTPRouter_Models_RoutingRule.htm" />
+  <HelpKINode Title="SMTPRouter.Models.SmtpConfiguration class" Url="html/T_SMTPRouter_Models_SmtpConfiguration.htm" />
+  <HelpKINode Title="SMTPRouter.QueuesNotInitializedException class" Url="html/T_SMTPRouter_QueuesNotInitializedException.htm" />
+  <HelpKINode Title="SMTPRouter.Router class" Url="html/T_SMTPRouter_Router.htm" />
+  <HelpKINode Title="SMTPRouter.Server class" Url="html/T_SMTPRouter_Server.htm" />
+  <HelpKINode Title="SMTPRouter.Windows.Configuration namespace" Url="html/N_SMTPRouter_Windows_Configuration.htm" />
+  <HelpKINode Title="SMTPRouter.Windows.Configuration.ConfigFileParser class" Url="html/T_SMTPRouter_Windows_Configuration_ConfigFileParser.htm" />
+  <HelpKINode Title="SMTPRouter.Windows.Configuration.NameValueSection class" Url="html/T_SMTPRouter_Windows_Configuration_NameValueSection.htm" />
+  <HelpKINode Title="SMTPRouter.Windows.Configuration.RoutingRuleCollection class" Url="html/T_SMTPRouter_Windows_Configuration_RoutingRuleCollection.htm" />
+  <HelpKINode Title="SMTPRouter.Windows.Configuration.RoutingRuleElement class" Url="html/T_SMTPRouter_Windows_Configuration_RoutingRuleElement.htm" />
+  <HelpKINode Title="SMTPRouter.Windows.Configuration.RoutingRulesSection class" Url="html/T_SMTPRouter_Windows_Configuration_RoutingRulesSection.htm" />
+  <HelpKINode Title="SMTPRouter.Windows.Configuration.SmtpConnectionCollection class" Url="html/T_SMTPRouter_Windows_Configuration_SmtpConnectionCollection.htm" />
+  <HelpKINode Title="SMTPRouter.Windows.Configuration.SmtpConnectionElement class" Url="html/T_SMTPRouter_Windows_Configuration_SmtpConnectionElement.htm" />
+  <HelpKINode Title="SMTPRouter.Windows.Configuration.SmtpConnectionsSection class" Url="html/T_SMTPRouter_Windows_Configuration_SmtpConnectionsSection.htm" />
+  <HelpKINode Title="SMTPRouter.WorkingFolders class" Url="html/T_SMTPRouter_WorkingFolders.htm" />
+  <HelpKINode Title="StartAsync method">
+    <HelpKINode Title="Listener.StartAsync Method " Url="html/M_SMTPRouter_Listener_StartAsync.htm" />
+    <HelpKINode Title="Router.StartAsync Method " Url="html/M_SMTPRouter_Router_StartAsync.htm" />
+    <HelpKINode Title="Server.StartAsync Method " Url="html/M_SMTPRouter_Server_StartAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="RoutingRuleElement.ToString Method " Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleElement_ToString.htm" />
+    <HelpKINode Title="SmtpConnectionElement.ToString Method " Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionElement_ToString.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Type property" Url="html/P_SMTPRouter_Windows_Configuration_RoutingRuleElement_Type.htm" />
+  <HelpKINode Title="User property">
+    <HelpKINode Title="SmtpConfiguration.User Property " Url="html/P_SMTPRouter_Models_SmtpConfiguration_User.htm" />
+    <HelpKINode Title="SmtpConnectionElement.User Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_User.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UseSSL property">
+    <HelpKINode Title="Listener.UseSSL Property " Url="html/P_SMTPRouter_Listener_UseSSL.htm" />
+    <HelpKINode Title="Server.UseSSL Property " Url="html/P_SMTPRouter_Server_UseSSL.htm" />
+    <HelpKINode Title="SmtpConfiguration.UseSSL Property " Url="html/P_SMTPRouter_Models_SmtpConfiguration_UseSSL.htm" />
+    <HelpKINode Title="SmtpConnectionElement.UseSSL Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_UseSSL.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorkingFolders class">
+    <HelpKINode Title="WorkingFolders Class" Url="html/T_SMTPRouter_WorkingFolders.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_WorkingFolders.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_WorkingFolders.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorkingFolders.ErrorFolder property" Url="html/P_SMTPRouter_WorkingFolders_ErrorFolder.htm" />
+  <HelpKINode Title="WorkingFolders.OutgoingFolder property" Url="html/P_SMTPRouter_WorkingFolders_OutgoingFolder.htm" />
+  <HelpKINode Title="WorkingFolders.RetryFolder property" Url="html/P_SMTPRouter_WorkingFolders_RetryFolder.htm" />
+  <HelpKINode Title="WorkingFolders.RootFolder property" Url="html/P_SMTPRouter_WorkingFolders_RootFolder.htm" />
+  <HelpKINode Title="WorkingFolders.SentFolder property" Url="html/P_SMTPRouter_WorkingFolders_SentFolder.htm" />
+</HelpKI>
