@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.12.30.2" projectFile="D:\Diassoft\Sandcastle\SMTPRouter\SMTPRouter.shfbproj" started="4/22/2018 9:24:20 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.12.30.2" projectFile="D:\Diassoft\Sandcastle\SMTPRouter\SMTPRouter.shfbproj" started="4/24/2018 8:32:17 AM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -25,6 +25,7 @@ Source: D:\Diassoft\Source Code\SMTPRouter\SMTPRouter\bin\Release\netstandard1.3
 Source: D:\Diassoft\Source Code\SMTPRouter.Windows\SMTPRouter.Windows\bin\Release\SMTPRouter.Windows.dll
     Found assembly &#39;D:\Diassoft\Source Code\SMTPRouter.Windows\SMTPRouter.Windows\bin\Release\SMTPRouter.Windows.dll&#39;
 Source: D:\Diassoft\Sandcastle\SMTPRouter\Content\Additional XML Comments\NamespaceComments.xml
+Source: D:\Diassoft\Source Code\SMTPRouter.Windows\SMTPRouter.Windows\bin\Release\SMTPRouter.Windows.xml
 
 References to include (excluding framework assemblies):
     BouncyCastle.Crypto
@@ -36,20 +37,21 @@ References to include (excluding framework assemblies):
 
 Copying XML comments files
     D:\Diassoft\Sandcastle\SMTPRouter\Content\Additional XML Comments\NamespaceComments.xml -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\NamespaceComments.xml
+    D:\Diassoft\Source Code\SMTPRouter.Windows\SMTPRouter.Windows\bin\Release\SMTPRouter.Windows.xml -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\SMTPRouter.Windows.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0280
+</plugIn>    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0110
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateRefInfo.proj]
-Build started 4/22/2018 9:24:22 PM.
+Build started 4/24/2018 8:32:18 AM.
 Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -59,11 +61,10 @@ GenerateRefInfo:
   Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 2 assemblies for reflection and 57 dependency assemblies.
-  Using automatic redirect &#39;SMTPRouter, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null&#39; in place of &#39;SMTPRouter, Version=1.0.1.1, Culture=neutral, PublicKeyToken=null&#39;
   Using automatic redirect &#39;System.Threading.Tasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Threading.Tasks, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
   Using automatic redirect &#39;System.Collections.Concurrent, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Collections, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
 MRefBuilder : warning : Ignoring unresolved assembly reference: System.IO.FileSystem (System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by SMTPRouter [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\GenerateRefInfo.proj]
-  Wrote information on 3 namespaces, 24 types, and 165 members
+  Wrote information on 3 namespaces, 24 types, and 167 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2017.12.30.2)
   Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
@@ -74,12 +75,12 @@ Done Building Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Gener
 Build succeeded.
 
 Time Elapsed 00:00:01.10
-    Last step completed in 00:00:01.2390
+    Last step completed in 00:00:01.2150
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - TransformManifest.proj]
-Build started 4/22/2018 9:24:23 PM.
+Build started 4/24/2018 8:32:20 AM.
 Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2017.12.30.2)
@@ -121,8 +122,8 @@ Done Building Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Trans
 
 Build succeeded.
 
-Time Elapsed 00:00:00.56
-    Last step completed in 00:00:00.6951
+Time Elapsed 00:00:00.55
+    Last step completed in 00:00:00.6920
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
@@ -133,16 +134,16 @@ Copying additional content files...
 D:\Diassoft\Sandcastle\SMTPRouter\icons\Nuget-Package-Icon-v01.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\Nuget-Package-Icon-v01.png
 D:\Diassoft\Sandcastle\SMTPRouter\icons\Nuget-Package-Icon-v01.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\Nuget-Package-Icon-v01.png
 D:\Diassoft\Sandcastle\SMTPRouter\icons\Nuget-Package-Icon-v01.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\Nuget-Package-Icon-v01.png
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 4/22/2018 9:24:24 PM.
+Build started 4/24/2018 8:32:20 AM.
 Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2017.12.30.2)
@@ -160,19 +161,19 @@ Generating conceptual content intermediate TOC file...
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.2030
+    Last step completed in 00:00:00.2330
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0190
+    Last step completed in 00:00:00.0200
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildTopics.proj]
-Build started 4/22/2018 9:24:24 PM.
+Build started 4/24/2018 8:32:21 AM.
 Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2017.12.30.2)
@@ -438,77 +439,22 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SMTPRouter.Windows.Configuration.ConfigFileParser] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.ConfigFileParser.#ctor(System.Configuration.Configuration)] Missing &lt;param name=&quot;config&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.ConfigFileParser.Config] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.ConfigFileParser.MessageLifespan] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.ConfigFileParser.MessagePurgeLifespan] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.ConfigFileParser.QueuePath] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.ConfigFileParser.RoutingRules] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.ConfigFileParser.SmtpConnections] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.ConfigFileParser.SmtpHost] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SMTPRouter.Windows.Configuration.NameValueSection] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.NameValueSection.Settings] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SMTPRouter.Windows.Configuration.RoutingRuleCollection] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.Add(SMTPRouter.Windows.Configuration.RoutingRuleElement)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.Add(SMTPRouter.Windows.Configuration.RoutingRuleElement)] Missing &lt;param name=&quot;element&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.Clear] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.IndexOf(SMTPRouter.Windows.Configuration.RoutingRuleElement)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.IndexOf(SMTPRouter.Windows.Configuration.RoutingRuleElement)] Missing &lt;returns&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.IndexOf(SMTPRouter.Windows.Configuration.RoutingRuleElement)] Missing &lt;param name=&quot;element&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.RoutingRuleCollection.Item(System.Int32)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.Remove(SMTPRouter.Windows.Configuration.RoutingRuleElement)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.Remove(SMTPRouter.Windows.Configuration.RoutingRuleElement)] Missing &lt;param name=&quot;element&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.RemoveAt(System.Int32)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleCollection.RemoveAt(System.Int32)] Missing &lt;param name=&quot;index&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SMTPRouter.Windows.Configuration.RoutingRuleElement] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.RoutingRuleElement.ExecutionSequence] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.RoutingRuleElement.Parameters] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.RoutingRuleElement.SmtpConfigurationKey] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleElement.ToString] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleElement.ToString] Missing &lt;returns&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.RoutingRuleElement.Type] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SMTPRouter.Windows.Configuration.RoutingRulesSection] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.RoutingRulesSection.RoutingRules] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SMTPRouter.Windows.Configuration.SmtpConnectionCollection] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.Add(SMTPRouter.Windows.Configuration.SmtpConnectionElement)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.Add(SMTPRouter.Windows.Configuration.SmtpConnectionElement)] Missing &lt;param name=&quot;element&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.Clear] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.IndexOf(SMTPRouter.Windows.Configuration.SmtpConnectionElement)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.IndexOf(SMTPRouter.Windows.Configuration.SmtpConnectionElement)] Missing &lt;returns&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.IndexOf(SMTPRouter.Windows.Configuration.SmtpConnectionElement)] Missing &lt;param name=&quot;element&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.Item(System.Int32)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.Remove(SMTPRouter.Windows.Configuration.SmtpConnectionElement)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.Remove(SMTPRouter.Windows.Configuration.SmtpConnectionElement)] Missing &lt;param name=&quot;element&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.RemoveAt(System.Int32)] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionCollection.RemoveAt(System.Int32)] Missing &lt;param name=&quot;index&quot;/&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SMTPRouter.Windows.Configuration.SmtpConnectionElement] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionElement.Description] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionElement.Host] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionElement.Key] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionElement.Password] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionElement.Port] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionElement.RequiresAuthentication] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionElement.ToString] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionElement.ToString] Missing &lt;returns&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionElement.User] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionElement.UseSSL] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SMTPRouter.Windows.Configuration.SmtpConnectionsSection] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SMTPRouter.Windows.Configuration.SmtpConnectionsSection.SmtpConnections] Missing &lt;summary&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-  Processed 263 topic(s)
-  315 warning(s)
+  Processed 265 topic(s)
+  260 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
-  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 6 of 30.
 Done Building Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:09.02
-    Last step completed in 00:00:09.1610
+Time Elapsed 00:00:09.25
+    Last step completed in 00:00:09.3900
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -520,17 +466,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1
-Processed 263 HTML files
+Processed 265 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\SMTPRouterDoc.hhk
 Saving HTML Help 1 table of contents to D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\SMTPRouterDoc.hhc
 
 Processing website files in D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website
-Processed 263 HTML files
+Processed 265 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\WebKI.xml
 Saving website table of contents to D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\WebTOC.xml
-    Last step completed in 00:00:00.3930
+    Last step completed in 00:00:00.3900
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -736,7 +682,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.4380
+    Last step completed in 00:00:00.3640
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -748,7 +694,7 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0080
+    Last step completed in 00:00:00.0090
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -765,11 +711,11 @@ Compiling HTML Help 1 file...
   
   Compile time: 0 minutes, 6 seconds
   
-  265	Topics
+  267	Topics
   
-  2,605	Local links
+  2,647	Local links
   
-  1,310	Internet links
+  1,340	Internet links
   
   0	Graphics
   
@@ -777,11 +723,11 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\SMTPRouterDoc.chm, 276,740 bytes
+  Created d:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\SMTPRouterDoc.chm, 287,658 bytes
   
-  Compression decreased file by 2,202,999 bytes.
+  Compression decreased file by 2,236,145 bytes.
   
-    Last step completed in 00:00:07.0648
+    Last step completed in 00:00:07.6884
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Executing informational Generate Table of Contents build step for plug-ins (not used for MS Help Viewer)
@@ -795,10 +741,10 @@ Executing informational Generate Help Project build step for plug-ins (not used 
 Generating MS Help Viewer file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildHelpViewerFile.proj]
   Compressing help content files...
-  Compression finished.  333 items added
+  Compression finished.  335 items added
   Saving D:\Diassoft\Sandcastle\SMTPRouter\Help\SMTPRouterDoc.mshc...
   Finished saving D:\Diassoft\Sandcastle\SMTPRouter\Help\SMTPRouterDoc.mshc
-  Compressed 4 folders, 329 files.  Reduced size by 1,819,649 bytes (73%).
+  Compressed 4 folders, 331 files.  Reduced size by 1,854,962 bytes (74%).
     Last step completed in 00:00:00.6530
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
@@ -810,21 +756,21 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:02.2830
+</plugIn>    Last step completed in 00:00:02.3880
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
-Copied 443 files for the website content
-    Last step completed in 00:00:00.8310
+Copied 446 files for the website content
+    Last step completed in 00:00:00.7481
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.7087
+    Last step completed in 00:00:00.6576
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 4/22/2018 9:24:46 PM.  Total time: 00:00:25.1377
+Build completed successfully at 4/24/2018 8:32:43 AM.  Total time: 00:00:25.8944
 
 </buildStep>
 </shfbBuild>

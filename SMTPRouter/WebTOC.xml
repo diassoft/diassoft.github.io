@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="2ca842e0-2ec1-4dff-bce3-f7471abf7200" Title="Namespaces" Url="html/R_Project_SMTPRouterDoc.htm">
-    <HelpTOCNode Id="b8e25b36-4b83-49fe-b568-f2794fde485b" Title="SMTPRouter" Url="html/N_SMTPRouter.htm">
-      <HelpTOCNode Id="dea91699-effc-4194-af68-753a7a825c8e" Title="GeneralErrorEventArgs Class" Url="html/T_SMTPRouter_GeneralErrorEventArgs.htm">
+  <HelpTOCNode Id="41d34c68-a58e-4e68-ba08-44590b644d97" Title="Namespaces" Url="html/R_Project_SMTPRouterDoc.htm">
+    <HelpTOCNode Id="83714363-8dfa-4ef2-9157-27a9e549964d" Title="SMTPRouter" Url="html/N_SMTPRouter.htm">
+      <HelpTOCNode Id="f30842b1-b330-4166-901b-5e1368d124e2" Title="GeneralErrorEventArgs Class" Url="html/T_SMTPRouter_GeneralErrorEventArgs.htm">
         <HelpTOCNode Title="GeneralErrorEventArgs Constructor " Url="html/M_SMTPRouter_GeneralErrorEventArgs__ctor.htm" />
-        <HelpTOCNode Id="79d497f7-07ad-4fdc-831e-d6ba77fe041f" Title="GeneralErrorEventArgs Properties" Url="html/Properties_T_SMTPRouter_GeneralErrorEventArgs.htm">
+        <HelpTOCNode Id="4f578207-4599-4d98-b009-50abb0c922a8" Title="GeneralErrorEventArgs Properties" Url="html/Properties_T_SMTPRouter_GeneralErrorEventArgs.htm">
           <HelpTOCNode Title="Exception Property " Url="html/P_SMTPRouter_GeneralErrorEventArgs_Exception.htm" />
           <HelpTOCNode Title="MethodName Property " Url="html/P_SMTPRouter_GeneralErrorEventArgs_MethodName.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="GeneralErrorEventArgs Methods" Url="html/Methods_T_SMTPRouter_GeneralErrorEventArgs.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="ac5c8d69-e6c5-4d06-8059-5ccbf1481cba" Title="Listener Class" Url="html/T_SMTPRouter_Listener.htm">
-        <HelpTOCNode Id="b024647f-d381-4dc1-a601-27a81bfe8dc2" Title="Listener Constructor " Url="html/Overload_SMTPRouter_Listener__ctor.htm">
+      <HelpTOCNode Id="e2c0235b-9af8-4422-a42a-69d787f47255" Title="Listener Class" Url="html/T_SMTPRouter_Listener.htm">
+        <HelpTOCNode Id="29dc7dac-d95e-4851-a381-67db84828e70" Title="Listener Constructor " Url="html/Overload_SMTPRouter_Listener__ctor.htm">
           <HelpTOCNode Title="Listener Constructor " Url="html/M_SMTPRouter_Listener__ctor.htm" />
           <HelpTOCNode Title="Listener Constructor (String, Int32[])" Url="html/M_SMTPRouter_Listener__ctor_1.htm" />
           <HelpTOCNode Title="Listener Constructor (String, Int32[], Boolean)" Url="html/M_SMTPRouter_Listener__ctor_2.htm" />
           <HelpTOCNode Title="Listener Constructor (String, Int32[], Boolean, Boolean)" Url="html/M_SMTPRouter_Listener__ctor_3.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="9e3557fa-cdc9-4107-b47d-ac006006386f" Title="Listener Properties" Url="html/Properties_T_SMTPRouter_Listener.htm">
+        <HelpTOCNode Id="ca813189-bdc8-4445-8ecb-a38256d049c2" Title="Listener Properties" Url="html/Properties_T_SMTPRouter_Listener.htm">
           <HelpTOCNode Title="IsListening Property " Url="html/P_SMTPRouter_Listener_IsListening.htm" />
           <HelpTOCNode Title="Ports Property " Url="html/P_SMTPRouter_Listener_Ports.htm" />
           <HelpTOCNode Title="RequiresAuthentication Property " Url="html/P_SMTPRouter_Listener_RequiresAuthentication.htm" />
@@ -26,10 +26,10 @@
           <HelpTOCNode Title="ServerName Property " Url="html/P_SMTPRouter_Listener_ServerName.htm" />
           <HelpTOCNode Title="UseSSL Property " Url="html/P_SMTPRouter_Listener_UseSSL.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="c35a0718-9e99-4c4e-a445-523cec1eeaae" Title="Listener Methods" Url="html/Methods_T_SMTPRouter_Listener.htm">
+        <HelpTOCNode Id="44f1c6c1-8ff6-4b41-bfda-0a3d68125771" Title="Listener Methods" Url="html/Methods_T_SMTPRouter_Listener.htm">
           <HelpTOCNode Title="StartAsync Method " Url="html/M_SMTPRouter_Listener_StartAsync.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="ec222b8f-0732-4e29-b93f-6602bbc0340a" Title="Listener Events" Url="html/Events_T_SMTPRouter_Listener.htm">
+        <HelpTOCNode Id="184a9592-51a5-4b6f-a0bc-ecfc96666769" Title="Listener Events" Url="html/Events_T_SMTPRouter_Listener.htm">
           <HelpTOCNode Title="ListeningStarted Event" Url="html/E_SMTPRouter_Listener_ListeningStarted.htm" />
           <HelpTOCNode Title="MessageReceived Event" Url="html/E_SMTPRouter_Listener_MessageReceived.htm" />
           <HelpTOCNode Title="SessionCommandExecuting Event" Url="html/E_SMTPRouter_Listener_SessionCommandExecuting.htm" />
@@ -37,29 +37,29 @@
           <HelpTOCNode Title="SessionCreated Event" Url="html/E_SMTPRouter_Listener_SessionCreated.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="ba2d5bae-3531-4f3c-8a38-fc033fc4b56a" Title="MessageErrorEventArgs Class" Url="html/T_SMTPRouter_MessageErrorEventArgs.htm">
-        <HelpTOCNode Id="d520bbac-80e3-45d6-bdb7-378db12e28f9" Title="MessageErrorEventArgs Constructor " Url="html/Overload_SMTPRouter_MessageErrorEventArgs__ctor.htm">
+      <HelpTOCNode Id="9442f67b-b40f-4c33-aa8c-33a74edb53e0" Title="MessageErrorEventArgs Class" Url="html/T_SMTPRouter_MessageErrorEventArgs.htm">
+        <HelpTOCNode Id="84a56890-d52a-4451-9dc5-d51d6ec94959" Title="MessageErrorEventArgs Constructor " Url="html/Overload_SMTPRouter_MessageErrorEventArgs__ctor.htm">
           <HelpTOCNode Title="MessageErrorEventArgs Constructor " Url="html/M_SMTPRouter_MessageErrorEventArgs__ctor.htm" />
           <HelpTOCNode Title="MessageErrorEventArgs Constructor (MimeMessage)" Url="html/M_SMTPRouter_MessageErrorEventArgs__ctor_1.htm" />
           <HelpTOCNode Title="MessageErrorEventArgs Constructor (MimeMessage, Exception)" Url="html/M_SMTPRouter_MessageErrorEventArgs__ctor_2.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="6d35b756-7089-469c-a31c-b38ac548f593" Title="MessageErrorEventArgs Properties" Url="html/Properties_T_SMTPRouter_MessageErrorEventArgs.htm">
+        <HelpTOCNode Id="ca1bae94-80a2-409a-88e6-96497020925e" Title="MessageErrorEventArgs Properties" Url="html/Properties_T_SMTPRouter_MessageErrorEventArgs.htm">
           <HelpTOCNode Title="Exception Property " Url="html/P_SMTPRouter_MessageErrorEventArgs_Exception.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="MessageErrorEventArgs Methods" Url="html/Methods_T_SMTPRouter_MessageErrorEventArgs.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="b52218b1-7c6a-424a-923b-6d871f06a306" Title="MessageEventArgs Class" Url="html/T_SMTPRouter_MessageEventArgs.htm">
-        <HelpTOCNode Id="2c2c8922-87eb-41f4-abfa-49dc61d00202" Title="MessageEventArgs Constructor " Url="html/Overload_SMTPRouter_MessageEventArgs__ctor.htm">
+      <HelpTOCNode Id="61770f6c-774f-4bbf-a964-c8812b4718f5" Title="MessageEventArgs Class" Url="html/T_SMTPRouter_MessageEventArgs.htm">
+        <HelpTOCNode Id="e2aa9f94-b84e-4b2f-b04f-440e0d5a839a" Title="MessageEventArgs Constructor " Url="html/Overload_SMTPRouter_MessageEventArgs__ctor.htm">
           <HelpTOCNode Title="MessageEventArgs Constructor " Url="html/M_SMTPRouter_MessageEventArgs__ctor.htm" />
           <HelpTOCNode Title="MessageEventArgs Constructor (MimeMessage)" Url="html/M_SMTPRouter_MessageEventArgs__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="7f585692-6d24-46ba-8771-be5f0e70382e" Title="MessageEventArgs Properties" Url="html/Properties_T_SMTPRouter_MessageEventArgs.htm">
+        <HelpTOCNode Id="0b603dc7-444e-4568-b2d8-b6442d56f0f8" Title="MessageEventArgs Properties" Url="html/Properties_T_SMTPRouter_MessageEventArgs.htm">
           <HelpTOCNode Title="MimeMessage Property " Url="html/P_SMTPRouter_MessageEventArgs_MimeMessage.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="MessageEventArgs Methods" Url="html/Methods_T_SMTPRouter_MessageEventArgs.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="b0963522-3509-4dbc-8b9a-307f050103b3" Title="MessageNotQueuedException Class" Url="html/T_SMTPRouter_MessageNotQueuedException.htm">
-        <HelpTOCNode Id="e7a84a20-80cd-47cf-8615-137060874206" Title="MessageNotQueuedException Constructor " Url="html/Overload_SMTPRouter_MessageNotQueuedException__ctor.htm">
+      <HelpTOCNode Id="e9bba59a-86e5-49c6-ad54-eb8edbec872e" Title="MessageNotQueuedException Class" Url="html/T_SMTPRouter_MessageNotQueuedException.htm">
+        <HelpTOCNode Id="18dd4005-515e-4c61-aec3-50d79dfe3f67" Title="MessageNotQueuedException Constructor " Url="html/Overload_SMTPRouter_MessageNotQueuedException__ctor.htm">
           <HelpTOCNode Title="MessageNotQueuedException Constructor " Url="html/M_SMTPRouter_MessageNotQueuedException__ctor.htm" />
           <HelpTOCNode Title="MessageNotQueuedException Constructor (MimeMessage)" Url="html/M_SMTPRouter_MessageNotQueuedException__ctor_1.htm" />
           <HelpTOCNode Title="MessageNotQueuedException Constructor (MimeMessage, Exception)" Url="html/M_SMTPRouter_MessageNotQueuedException__ctor_2.htm" />
@@ -67,8 +67,8 @@
         <HelpTOCNode Title="MessageNotQueuedException Properties" Url="html/Properties_T_SMTPRouter_MessageNotQueuedException.htm" />
         <HelpTOCNode Title="MessageNotQueuedException Methods" Url="html/Methods_T_SMTPRouter_MessageNotQueuedException.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="77b9768d-e3b2-4295-bd0b-5214f0451ef3" Title="MessageNotSentException Class" Url="html/T_SMTPRouter_MessageNotSentException.htm">
-        <HelpTOCNode Id="16dcc593-84f3-45f9-92f3-aa18354961fe" Title="MessageNotSentException Constructor " Url="html/Overload_SMTPRouter_MessageNotSentException__ctor.htm">
+      <HelpTOCNode Id="3cd25697-e5f9-400b-9757-994f6bcaa185" Title="MessageNotSentException Class" Url="html/T_SMTPRouter_MessageNotSentException.htm">
+        <HelpTOCNode Id="e19f1136-f771-4ece-8a85-d235e7652a6c" Title="MessageNotSentException Constructor " Url="html/Overload_SMTPRouter_MessageNotSentException__ctor.htm">
           <HelpTOCNode Title="MessageNotSentException Constructor " Url="html/M_SMTPRouter_MessageNotSentException__ctor.htm" />
           <HelpTOCNode Title="MessageNotSentException Constructor (MimeMessage)" Url="html/M_SMTPRouter_MessageNotSentException__ctor_1.htm" />
           <HelpTOCNode Title="MessageNotSentException Constructor (MimeMessage, Exception)" Url="html/M_SMTPRouter_MessageNotSentException__ctor_2.htm" />
@@ -76,34 +76,34 @@
         <HelpTOCNode Title="MessageNotSentException Properties" Url="html/Properties_T_SMTPRouter_MessageNotSentException.htm" />
         <HelpTOCNode Title="MessageNotSentException Methods" Url="html/Methods_T_SMTPRouter_MessageNotSentException.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="5cfbe58d-51b3-4cec-9c8d-48f007ea9ff3" Title="MimeMessageException Class" Url="html/T_SMTPRouter_MimeMessageException.htm">
-        <HelpTOCNode Id="165a91e3-2fdd-454e-bbe7-82d3a496cf70" Title="MimeMessageException Constructor " Url="html/Overload_SMTPRouter_MimeMessageException__ctor.htm">
+      <HelpTOCNode Id="b750209b-7634-4698-9eeb-7fa707aa14e1" Title="MimeMessageException Class" Url="html/T_SMTPRouter_MimeMessageException.htm">
+        <HelpTOCNode Id="6cd2ad78-86fd-4401-ac54-51558b47a44e" Title="MimeMessageException Constructor " Url="html/Overload_SMTPRouter_MimeMessageException__ctor.htm">
           <HelpTOCNode Title="MimeMessageException Constructor " Url="html/M_SMTPRouter_MimeMessageException__ctor.htm" />
           <HelpTOCNode Title="MimeMessageException Constructor (String)" Url="html/M_SMTPRouter_MimeMessageException__ctor_1.htm" />
           <HelpTOCNode Title="MimeMessageException Constructor (String, MimeMessage)" Url="html/M_SMTPRouter_MimeMessageException__ctor_2.htm" />
           <HelpTOCNode Title="MimeMessageException Constructor (String, MimeMessage, Exception)" Url="html/M_SMTPRouter_MimeMessageException__ctor_3.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="70038da6-4198-4b24-9f00-39b1be468059" Title="MimeMessageException Properties" Url="html/Properties_T_SMTPRouter_MimeMessageException.htm">
+        <HelpTOCNode Id="d31824ab-f47d-4fbc-85bc-ddae4ad66ba2" Title="MimeMessageException Properties" Url="html/Properties_T_SMTPRouter_MimeMessageException.htm">
           <HelpTOCNode Title="MimeMessage Property " Url="html/P_SMTPRouter_MimeMessageException_MimeMessage.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="MimeMessageException Methods" Url="html/Methods_T_SMTPRouter_MimeMessageException.htm" />
         <HelpTOCNode Title="MimeMessageException Events" Url="html/Events_T_SMTPRouter_MimeMessageException.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="cdbeb3cc-bb9c-4084-a00c-4dc50b236c77" Title="QueuesNotInitializedException Class" Url="html/T_SMTPRouter_QueuesNotInitializedException.htm">
-        <HelpTOCNode Id="afd5a443-e2de-49dd-88d7-7356cb194437" Title="QueuesNotInitializedException Constructor " Url="html/Overload_SMTPRouter_QueuesNotInitializedException__ctor.htm">
+      <HelpTOCNode Id="37c7409c-85b4-42ec-901c-27d08efd23ec" Title="QueuesNotInitializedException Class" Url="html/T_SMTPRouter_QueuesNotInitializedException.htm">
+        <HelpTOCNode Id="8f0d7e83-914e-4f82-8bed-86ca2d2fc119" Title="QueuesNotInitializedException Constructor " Url="html/Overload_SMTPRouter_QueuesNotInitializedException__ctor.htm">
           <HelpTOCNode Title="QueuesNotInitializedException Constructor " Url="html/M_SMTPRouter_QueuesNotInitializedException__ctor.htm" />
           <HelpTOCNode Title="QueuesNotInitializedException Constructor (Exception)" Url="html/M_SMTPRouter_QueuesNotInitializedException__ctor_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="QueuesNotInitializedException Properties" Url="html/Properties_T_SMTPRouter_QueuesNotInitializedException.htm" />
         <HelpTOCNode Title="QueuesNotInitializedException Methods" Url="html/Methods_T_SMTPRouter_QueuesNotInitializedException.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="0292847e-f2cf-4980-ad9c-0bc913465b33" Title="Router Class" Url="html/T_SMTPRouter_Router.htm">
-        <HelpTOCNode Id="12432a7d-3c21-406f-91b2-b8c0bd29677d" Title="Router Constructor " Url="html/Overload_SMTPRouter_Router__ctor.htm">
+      <HelpTOCNode Id="d8a1d5a7-dba3-4494-bc3d-7a17c899ba22" Title="Router Class" Url="html/T_SMTPRouter_Router.htm">
+        <HelpTOCNode Id="3d10b13e-3c41-4807-aec4-1207fd7645be" Title="Router Constructor " Url="html/Overload_SMTPRouter_Router__ctor.htm">
           <HelpTOCNode Title="Router Constructor " Url="html/M_SMTPRouter_Router__ctor.htm" />
           <HelpTOCNode Title="Router Constructor (String)" Url="html/M_SMTPRouter_Router__ctor_1.htm" />
           <HelpTOCNode Title="Router Constructor (String, String)" Url="html/M_SMTPRouter_Router__ctor_2.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="067841a5-257d-43ff-9146-96710b5fb6d4" Title="Router Properties" Url="html/Properties_T_SMTPRouter_Router.htm">
+        <HelpTOCNode Id="403cb0cc-2428-4f2c-b65b-daf22938f33d" Title="Router Properties" Url="html/Properties_T_SMTPRouter_Router.htm">
           <HelpTOCNode Title="DestinationSmtps Property " Url="html/P_SMTPRouter_Router_DestinationSmtps.htm" />
           <HelpTOCNode Title="Folders Property " Url="html/P_SMTPRouter_Router_Folders.htm" />
           <HelpTOCNode Title="IsInitialized Property " Url="html/P_SMTPRouter_Router_IsInitialized.htm" />
@@ -114,7 +114,7 @@
           <HelpTOCNode Title="QueuePath Property " Url="html/P_SMTPRouter_Router_QueuePath.htm" />
           <HelpTOCNode Title="RoutingRules Property " Url="html/P_SMTPRouter_Router_RoutingRules.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="cf5f637c-92cd-4979-b730-c1c49f912a75" Title="Router Methods" Url="html/Methods_T_SMTPRouter_Router.htm">
+        <HelpTOCNode Id="46fca832-b864-4858-9f11-865ff597aaea" Title="Router Methods" Url="html/Methods_T_SMTPRouter_Router.htm">
           <HelpTOCNode Title="Enqueue Method " Url="html/M_SMTPRouter_Router_Enqueue.htm" />
           <HelpTOCNode Title="LoadRoutingRules Method " Url="html/M_SMTPRouter_Router_LoadRoutingRules.htm" />
           <HelpTOCNode Title="LoadSmtpConfiguration Method " Url="html/M_SMTPRouter_Router_LoadSmtpConfiguration.htm" />
@@ -123,19 +123,19 @@
           <HelpTOCNode Title="SaveSmtpConfiguration Method " Url="html/M_SMTPRouter_Router_SaveSmtpConfiguration.htm" />
           <HelpTOCNode Title="StartAsync Method " Url="html/M_SMTPRouter_Router_StartAsync.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="6e6cc26f-67e2-48db-a478-39018e08a06c" Title="Router Events" Url="html/Events_T_SMTPRouter_Router.htm">
+        <HelpTOCNode Id="eb944590-d0c1-4080-b5a7-acdfa97ee0a4" Title="Router Events" Url="html/Events_T_SMTPRouter_Router.htm">
           <HelpTOCNode Title="GeneralError Event" Url="html/E_SMTPRouter_Router_GeneralError.htm" />
           <HelpTOCNode Title="MessageNotRouted Event" Url="html/E_SMTPRouter_Router_MessageNotRouted.htm" />
           <HelpTOCNode Title="MessageRoutedSuccessfully Event" Url="html/E_SMTPRouter_Router_MessageRoutedSuccessfully.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="d113f588-6a27-4d23-9a72-39b3b9aec9f1" Title="Server Class" Url="html/T_SMTPRouter_Server.htm">
-        <HelpTOCNode Id="d6f2aa66-aa6e-4236-9552-fa40aaec5b28" Title="Server Constructor " Url="html/Overload_SMTPRouter_Server__ctor.htm">
+      <HelpTOCNode Id="2645b493-1a6d-4cd3-a244-a311857a1844" Title="Server Class" Url="html/T_SMTPRouter_Server.htm">
+        <HelpTOCNode Id="71261491-ba10-47bd-89a7-7c68a784c340" Title="Server Constructor " Url="html/Overload_SMTPRouter_Server__ctor.htm">
           <HelpTOCNode Title="Server Constructor " Url="html/M_SMTPRouter_Server__ctor.htm" />
           <HelpTOCNode Title="Server Constructor (String, Int32, Boolean, Boolean, String, String)" Url="html/M_SMTPRouter_Server__ctor_1.htm" />
           <HelpTOCNode Title="Server Constructor (String, Int32[], Boolean, Boolean, String, String)" Url="html/M_SMTPRouter_Server__ctor_2.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="514f1c1a-e86d-46bd-881e-e64b3297c068" Title="Server Properties" Url="html/Properties_T_SMTPRouter_Server.htm">
+        <HelpTOCNode Id="d3be7749-00a4-4c6f-94b1-7052401fc814" Title="Server Properties" Url="html/Properties_T_SMTPRouter_Server.htm">
           <HelpTOCNode Title="DestinationSmtps Property " Url="html/P_SMTPRouter_Server_DestinationSmtps.htm" />
           <HelpTOCNode Title="Folders Property " Url="html/P_SMTPRouter_Server_Folders.htm" />
           <HelpTOCNode Title="Listener Property " Url="html/P_SMTPRouter_Server_Listener.htm" />
@@ -150,10 +150,10 @@
           <HelpTOCNode Title="ServerName Property " Url="html/P_SMTPRouter_Server_ServerName.htm" />
           <HelpTOCNode Title="UseSSL Property " Url="html/P_SMTPRouter_Server_UseSSL.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="f9c0ac6e-d862-4e29-af9d-de8babf4bb7e" Title="Server Methods" Url="html/Methods_T_SMTPRouter_Server.htm">
+        <HelpTOCNode Id="bfafddf2-31d1-4447-921c-2284db80fa73" Title="Server Methods" Url="html/Methods_T_SMTPRouter_Server.htm">
           <HelpTOCNode Title="StartAsync Method " Url="html/M_SMTPRouter_Server_StartAsync.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="5a5eebe2-40e3-4fd1-9a34-4e3b889fad92" Title="Server Events" Url="html/Events_T_SMTPRouter_Server.htm">
+        <HelpTOCNode Id="6e952e5a-36b7-4fd4-8a66-d1230aeaa36b" Title="Server Events" Url="html/Events_T_SMTPRouter_Server.htm">
           <HelpTOCNode Title="GeneralError Event" Url="html/E_SMTPRouter_Server_GeneralError.htm" />
           <HelpTOCNode Title="ListeningStarted Event" Url="html/E_SMTPRouter_Server_ListeningStarted.htm" />
           <HelpTOCNode Title="MessageNotRouted Event" Url="html/E_SMTPRouter_Server_MessageNotRouted.htm" />
@@ -164,8 +164,8 @@
           <HelpTOCNode Title="SessionCreated Event" Url="html/E_SMTPRouter_Server_SessionCreated.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="8f4a8839-9792-4fdc-b4fd-71f3fb890b1b" Title="WorkingFolders Class" Url="html/T_SMTPRouter_WorkingFolders.htm">
-        <HelpTOCNode Id="951511ac-b099-48bb-b12a-5e49467dba74" Title="WorkingFolders Properties" Url="html/Properties_T_SMTPRouter_WorkingFolders.htm">
+      <HelpTOCNode Id="0cbab7fe-a826-4531-ae3a-135001edc4b8" Title="WorkingFolders Class" Url="html/T_SMTPRouter_WorkingFolders.htm">
+        <HelpTOCNode Id="bd3b6979-877c-4395-9a56-273e8c25c83c" Title="WorkingFolders Properties" Url="html/Properties_T_SMTPRouter_WorkingFolders.htm">
           <HelpTOCNode Title="ErrorFolder Property " Url="html/P_SMTPRouter_WorkingFolders_ErrorFolder.htm" />
           <HelpTOCNode Title="OutgoingFolder Property " Url="html/P_SMTPRouter_WorkingFolders_OutgoingFolder.htm" />
           <HelpTOCNode Title="RetryFolder Property " Url="html/P_SMTPRouter_WorkingFolders_RetryFolder.htm" />
@@ -175,36 +175,36 @@
         <HelpTOCNode Title="WorkingFolders Methods" Url="html/Methods_T_SMTPRouter_WorkingFolders.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="a6278475-0515-43fb-be1c-c020b988dd10" Title="SMTPRouter.Models" Url="html/N_SMTPRouter_Models.htm">
-      <HelpTOCNode Id="6e14bde8-5368-48b7-ba3b-becaf49e3ff8" Title="MailFromDomainRoutingRule Class" Url="html/T_SMTPRouter_Models_MailFromDomainRoutingRule.htm">
-        <HelpTOCNode Id="d1f6dad5-b838-4b5a-8538-ee9370aa8434" Title="MailFromDomainRoutingRule Constructor " Url="html/Overload_SMTPRouter_Models_MailFromDomainRoutingRule__ctor.htm">
+    <HelpTOCNode Id="cbee6ec3-c769-4aa8-b570-a8f3d348027e" Title="SMTPRouter.Models" Url="html/N_SMTPRouter_Models.htm">
+      <HelpTOCNode Id="7dc3df34-c861-4fa6-9d2c-fbac08ecfb7f" Title="MailFromDomainRoutingRule Class" Url="html/T_SMTPRouter_Models_MailFromDomainRoutingRule.htm">
+        <HelpTOCNode Id="97c18acb-e362-48f5-a0a2-ed130dd0e800" Title="MailFromDomainRoutingRule Constructor " Url="html/Overload_SMTPRouter_Models_MailFromDomainRoutingRule__ctor.htm">
           <HelpTOCNode Title="MailFromDomainRoutingRule Constructor " Url="html/M_SMTPRouter_Models_MailFromDomainRoutingRule__ctor.htm" />
           <HelpTOCNode Title="MailFromDomainRoutingRule Constructor (Int32, String, String)" Url="html/M_SMTPRouter_Models_MailFromDomainRoutingRule__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="971fec0c-6b3c-4243-a40e-178d5b173e91" Title="MailFromDomainRoutingRule Properties" Url="html/Properties_T_SMTPRouter_Models_MailFromDomainRoutingRule.htm">
+        <HelpTOCNode Id="04bdd9c2-9480-49cc-9f5c-5b2df01911a1" Title="MailFromDomainRoutingRule Properties" Url="html/Properties_T_SMTPRouter_Models_MailFromDomainRoutingRule.htm">
           <HelpTOCNode Title="Domain Property " Url="html/P_SMTPRouter_Models_MailFromDomainRoutingRule_Domain.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="8733dac6-01dd-4f43-b1fb-4a8ccd4aa4a7" Title="MailFromDomainRoutingRule Methods" Url="html/Methods_T_SMTPRouter_Models_MailFromDomainRoutingRule.htm">
+        <HelpTOCNode Id="8bc6dfd2-ad4c-4c08-8b6c-4b759fd2e504" Title="MailFromDomainRoutingRule Methods" Url="html/Methods_T_SMTPRouter_Models_MailFromDomainRoutingRule.htm">
           <HelpTOCNode Title="Match Method " Url="html/M_SMTPRouter_Models_MailFromDomainRoutingRule_Match.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="MailFromDomainRoutingRule Events" Url="html/Events_T_SMTPRouter_Models_MailFromDomainRoutingRule.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="dbef59bf-53d6-4028-9efc-ee85eb694323" Title="MailFromRegexMatchRoutingRule Class" Url="html/T_SMTPRouter_Models_MailFromRegexMatchRoutingRule.htm">
-        <HelpTOCNode Id="ce44db00-f7c5-47d3-be2e-8b5de8f8d9ab" Title="MailFromRegexMatchRoutingRule Constructor " Url="html/Overload_SMTPRouter_Models_MailFromRegexMatchRoutingRule__ctor.htm">
+      <HelpTOCNode Id="033ed3be-e7d7-4dca-aca1-d818dc13448f" Title="MailFromRegexMatchRoutingRule Class" Url="html/T_SMTPRouter_Models_MailFromRegexMatchRoutingRule.htm">
+        <HelpTOCNode Id="a3ac1542-92f0-4de0-938c-729d9d5ace85" Title="MailFromRegexMatchRoutingRule Constructor " Url="html/Overload_SMTPRouter_Models_MailFromRegexMatchRoutingRule__ctor.htm">
           <HelpTOCNode Title="MailFromRegexMatchRoutingRule Constructor " Url="html/M_SMTPRouter_Models_MailFromRegexMatchRoutingRule__ctor.htm" />
           <HelpTOCNode Title="MailFromRegexMatchRoutingRule Constructor (Int32, String, String)" Url="html/M_SMTPRouter_Models_MailFromRegexMatchRoutingRule__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="5668a78b-a1e9-453f-a59a-5fdcc048a8b6" Title="MailFromRegexMatchRoutingRule Properties" Url="html/Properties_T_SMTPRouter_Models_MailFromRegexMatchRoutingRule.htm">
+        <HelpTOCNode Id="223270db-3abe-4934-bcd0-414af5707e4b" Title="MailFromRegexMatchRoutingRule Properties" Url="html/Properties_T_SMTPRouter_Models_MailFromRegexMatchRoutingRule.htm">
           <HelpTOCNode Title="RegexExpression Property " Url="html/P_SMTPRouter_Models_MailFromRegexMatchRoutingRule_RegexExpression.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="a5314b71-6c09-4a88-b99d-a0f8c2d8798f" Title="MailFromRegexMatchRoutingRule Methods" Url="html/Methods_T_SMTPRouter_Models_MailFromRegexMatchRoutingRule.htm">
+        <HelpTOCNode Id="dc0ec714-da3c-4ec4-bd28-78d5af9c6478" Title="MailFromRegexMatchRoutingRule Methods" Url="html/Methods_T_SMTPRouter_Models_MailFromRegexMatchRoutingRule.htm">
           <HelpTOCNode Title="Match Method " Url="html/M_SMTPRouter_Models_MailFromRegexMatchRoutingRule_Match.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="MailFromRegexMatchRoutingRule Events" Url="html/Events_T_SMTPRouter_Models_MailFromRegexMatchRoutingRule.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="b9e44fa6-1b83-4b37-9066-9b2a8c94b3bb" Title="RoutingMessage Class" Url="html/T_SMTPRouter_Models_RoutingMessage.htm">
+      <HelpTOCNode Id="8e1e9774-4942-4da2-ae31-819d0170fb2d" Title="RoutingMessage Class" Url="html/T_SMTPRouter_Models_RoutingMessage.htm">
         <HelpTOCNode Title="RoutingMessage Constructor " Url="html/M_SMTPRouter_Models_RoutingMessage__ctor.htm" />
-        <HelpTOCNode Id="3eebebfc-079a-4e72-b7ee-33f6dab1c898" Title="RoutingMessage Properties" Url="html/Properties_T_SMTPRouter_Models_RoutingMessage.htm">
+        <HelpTOCNode Id="e1268de3-2f29-41fb-9b26-580ed26860c5" Title="RoutingMessage Properties" Url="html/Properties_T_SMTPRouter_Models_RoutingMessage.htm">
           <HelpTOCNode Title="AttemptCount Property " Url="html/P_SMTPRouter_Models_RoutingMessage_AttemptCount.htm" />
           <HelpTOCNode Title="CreationDateTime Property " Url="html/P_SMTPRouter_Models_RoutingMessage_CreationDateTime.htm" />
           <HelpTOCNode Title="ID Property " Url="html/P_SMTPRouter_Models_RoutingMessage_ID.htm" />
@@ -215,29 +215,30 @@
         <HelpTOCNode Title="RoutingMessage Methods" Url="html/Methods_T_SMTPRouter_Models_RoutingMessage.htm" />
         <HelpTOCNode Title="RoutingMessage Events" Url="html/Events_T_SMTPRouter_Models_RoutingMessage.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="62445edc-71a6-47d1-bbf3-335cea29f085" Title="RoutingRule Class" Url="html/T_SMTPRouter_Models_RoutingRule.htm">
-        <HelpTOCNode Id="55b09664-f865-499d-8a95-6d51daba1c4e" Title="RoutingRule Constructor " Url="html/Overload_SMTPRouter_Models_RoutingRule__ctor.htm">
+      <HelpTOCNode Id="63775e26-8d94-44a5-8300-7fc3baa42b43" Title="RoutingRule Class" Url="html/T_SMTPRouter_Models_RoutingRule.htm">
+        <HelpTOCNode Id="970cac99-5163-4a9d-ab06-6fb1f3cee099" Title="RoutingRule Constructor " Url="html/Overload_SMTPRouter_Models_RoutingRule__ctor.htm">
           <HelpTOCNode Title="RoutingRule Constructor " Url="html/M_SMTPRouter_Models_RoutingRule__ctor.htm" />
           <HelpTOCNode Title="RoutingRule Constructor (Int32)" Url="html/M_SMTPRouter_Models_RoutingRule__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="5aba8843-7641-487f-aee7-705c4fcacdec" Title="RoutingRule Properties" Url="html/Properties_T_SMTPRouter_Models_RoutingRule.htm">
+        <HelpTOCNode Id="651017db-ad1f-49c7-b088-f261dde887bd" Title="RoutingRule Properties" Url="html/Properties_T_SMTPRouter_Models_RoutingRule.htm">
           <HelpTOCNode Title="ExecutionSequence Property " Url="html/P_SMTPRouter_Models_RoutingRule_ExecutionSequence.htm" />
           <HelpTOCNode Title="SmtpConfigurationKey Property " Url="html/P_SMTPRouter_Models_RoutingRule_SmtpConfigurationKey.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="81ce0ca7-9c2a-4801-8249-622520790559" Title="RoutingRule Methods" Url="html/Methods_T_SMTPRouter_Models_RoutingRule.htm">
+        <HelpTOCNode Id="b1e68e46-b755-4cc2-b0b9-2af2f9739cfd" Title="RoutingRule Methods" Url="html/Methods_T_SMTPRouter_Models_RoutingRule.htm">
           <HelpTOCNode Title="Match Method " Url="html/M_SMTPRouter_Models_RoutingRule_Match.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="RoutingRule Events" Url="html/Events_T_SMTPRouter_Models_RoutingRule.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="3ced88be-94e2-4f92-8d5b-e89c0f38ec3e" Title="SmtpConfiguration Class" Url="html/T_SMTPRouter_Models_SmtpConfiguration.htm">
+      <HelpTOCNode Id="d9c0de96-3d7c-424d-a3d2-8168d7dc67b0" Title="SmtpConfiguration Class" Url="html/T_SMTPRouter_Models_SmtpConfiguration.htm">
         <HelpTOCNode Title="SmtpConfiguration Constructor " Url="html/M_SMTPRouter_Models_SmtpConfiguration__ctor.htm" />
-        <HelpTOCNode Id="a731ce35-4596-48b7-9040-cf7320616736" Title="SmtpConfiguration Properties" Url="html/Properties_T_SMTPRouter_Models_SmtpConfiguration.htm">
+        <HelpTOCNode Id="dd70a8ef-2e24-4db7-99d4-aaa33ccdad17" Title="SmtpConfiguration Properties" Url="html/Properties_T_SMTPRouter_Models_SmtpConfiguration.htm">
           <HelpTOCNode Title="Description Property " Url="html/P_SMTPRouter_Models_SmtpConfiguration_Description.htm" />
           <HelpTOCNode Title="Host Property " Url="html/P_SMTPRouter_Models_SmtpConfiguration_Host.htm" />
           <HelpTOCNode Title="Key Property " Url="html/P_SMTPRouter_Models_SmtpConfiguration_Key.htm" />
           <HelpTOCNode Title="Password Property " Url="html/P_SMTPRouter_Models_SmtpConfiguration_Password.htm" />
           <HelpTOCNode Title="Port Property " Url="html/P_SMTPRouter_Models_SmtpConfiguration_Port.htm" />
           <HelpTOCNode Title="RequiresAuthentication Property " Url="html/P_SMTPRouter_Models_SmtpConfiguration_RequiresAuthentication.htm" />
+          <HelpTOCNode Title="SecureSocketOption Property " Url="html/P_SMTPRouter_Models_SmtpConfiguration_SecureSocketOption.htm" />
           <HelpTOCNode Title="User Property " Url="html/P_SMTPRouter_Models_SmtpConfiguration_User.htm" />
           <HelpTOCNode Title="UseSSL Property " Url="html/P_SMTPRouter_Models_SmtpConfiguration_UseSSL.htm" />
         </HelpTOCNode>
@@ -245,13 +246,13 @@
         <HelpTOCNode Title="SmtpConfiguration Events" Url="html/Events_T_SMTPRouter_Models_SmtpConfiguration.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="422ced12-59e9-4c4e-8b6e-693327eb5d74" Title="SMTPRouter.Windows.Configuration" Url="html/N_SMTPRouter_Windows_Configuration.htm">
-      <HelpTOCNode Id="64d9b966-aad3-498e-affe-040bca39fbd1" Title="ConfigFileParser Class" Url="html/T_SMTPRouter_Windows_Configuration_ConfigFileParser.htm">
-        <HelpTOCNode Id="49c8368e-f247-43b8-a389-d1c3758bc368" Title="ConfigFileParser Constructor " Url="html/Overload_SMTPRouter_Windows_Configuration_ConfigFileParser__ctor.htm">
+    <HelpTOCNode Id="eaa50a1e-7f05-43b9-9755-73c26323a526" Title="SMTPRouter.Windows.Configuration" Url="html/N_SMTPRouter_Windows_Configuration.htm">
+      <HelpTOCNode Id="932fdf40-ee9c-4986-9a6f-03fa4d2071d8" Title="ConfigFileParser Class" Url="html/T_SMTPRouter_Windows_Configuration_ConfigFileParser.htm">
+        <HelpTOCNode Id="32d0f00b-1c10-4223-9358-c5243a639ffa" Title="ConfigFileParser Constructor " Url="html/Overload_SMTPRouter_Windows_Configuration_ConfigFileParser__ctor.htm">
           <HelpTOCNode Title="ConfigFileParser Constructor " Url="html/M_SMTPRouter_Windows_Configuration_ConfigFileParser__ctor.htm" />
           <HelpTOCNode Title="ConfigFileParser Constructor (Configuration)" Url="html/M_SMTPRouter_Windows_Configuration_ConfigFileParser__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="be3eb847-ee24-402d-a5f4-0c9160df7a60" Title="ConfigFileParser Properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_ConfigFileParser.htm">
+        <HelpTOCNode Id="0d535404-697e-4ce2-b271-62511d002358" Title="ConfigFileParser Properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_ConfigFileParser.htm">
           <HelpTOCNode Title="Config Property " Url="html/P_SMTPRouter_Windows_Configuration_ConfigFileParser_Config.htm" />
           <HelpTOCNode Title="MessageLifespan Property " Url="html/P_SMTPRouter_Windows_Configuration_ConfigFileParser_MessageLifespan.htm" />
           <HelpTOCNode Title="MessagePurgeLifespan Property " Url="html/P_SMTPRouter_Windows_Configuration_ConfigFileParser_MessagePurgeLifespan.htm" />
@@ -262,19 +263,19 @@
         </HelpTOCNode>
         <HelpTOCNode Title="ConfigFileParser Methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_ConfigFileParser.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="eba5c7b2-6e95-4ea2-acd1-a548de7d4a5a" Title="NameValueSection Class" Url="html/T_SMTPRouter_Windows_Configuration_NameValueSection.htm">
+      <HelpTOCNode Id="9a44bd86-8ef0-4099-be9e-2ed77bd45a0c" Title="NameValueSection Class" Url="html/T_SMTPRouter_Windows_Configuration_NameValueSection.htm">
         <HelpTOCNode Title="NameValueSection Constructor " Url="html/M_SMTPRouter_Windows_Configuration_NameValueSection__ctor.htm" />
-        <HelpTOCNode Id="fed244f0-bf05-47ce-9755-8c5afde2b7a7" Title="NameValueSection Properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_NameValueSection.htm">
+        <HelpTOCNode Id="7b3a28b3-b35e-4c50-9b3c-2fa0f7b977d1" Title="NameValueSection Properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_NameValueSection.htm">
           <HelpTOCNode Title="Settings Property " Url="html/P_SMTPRouter_Windows_Configuration_NameValueSection_Settings.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="NameValueSection Methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_NameValueSection.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="b8054c72-57e6-4ce7-9fde-9098ded82295" Title="RoutingRuleCollection Class" Url="html/T_SMTPRouter_Windows_Configuration_RoutingRuleCollection.htm">
+      <HelpTOCNode Id="36fa9127-0115-45e5-82dc-a62426313317" Title="RoutingRuleCollection Class" Url="html/T_SMTPRouter_Windows_Configuration_RoutingRuleCollection.htm">
         <HelpTOCNode Title="RoutingRuleCollection Constructor " Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection__ctor.htm" />
-        <HelpTOCNode Id="9651f378-8e51-42d9-a32e-2b3ac1f14b3f" Title="RoutingRuleCollection Properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_RoutingRuleCollection.htm">
+        <HelpTOCNode Id="946512f1-9915-49ca-92ce-bf6ddb3f0216" Title="RoutingRuleCollection Properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_RoutingRuleCollection.htm">
           <HelpTOCNode Title="Item Property " Url="html/P_SMTPRouter_Windows_Configuration_RoutingRuleCollection_Item.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="55c42735-75a3-4299-b08b-302fcfdbe004" Title="RoutingRuleCollection Methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_RoutingRuleCollection.htm">
+        <HelpTOCNode Id="37ae4d3b-c2dd-4b95-9208-697676fd7603" Title="RoutingRuleCollection Methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_RoutingRuleCollection.htm">
           <HelpTOCNode Title="Add Method " Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection_Add.htm" />
           <HelpTOCNode Title="Clear Method " Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection_Clear.htm" />
           <HelpTOCNode Title="IndexOf Method " Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection_IndexOf.htm" />
@@ -282,31 +283,31 @@
           <HelpTOCNode Title="RemoveAt Method " Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection_RemoveAt.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="afb60442-8b13-404d-94f6-557ad9337123" Title="RoutingRuleElement Class" Url="html/T_SMTPRouter_Windows_Configuration_RoutingRuleElement.htm">
+      <HelpTOCNode Id="f153f642-17b6-4616-a9b7-c5af4a6c244a" Title="RoutingRuleElement Class" Url="html/T_SMTPRouter_Windows_Configuration_RoutingRuleElement.htm">
         <HelpTOCNode Title="RoutingRuleElement Constructor " Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleElement__ctor.htm" />
-        <HelpTOCNode Id="9701b0bc-c945-4adf-8ffa-c2bc0aeff061" Title="RoutingRuleElement Properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_RoutingRuleElement.htm">
+        <HelpTOCNode Id="3aaacdef-221a-409e-836a-b0d9981d4de3" Title="RoutingRuleElement Properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_RoutingRuleElement.htm">
           <HelpTOCNode Title="ExecutionSequence Property " Url="html/P_SMTPRouter_Windows_Configuration_RoutingRuleElement_ExecutionSequence.htm" />
           <HelpTOCNode Title="Parameters Property " Url="html/P_SMTPRouter_Windows_Configuration_RoutingRuleElement_Parameters.htm" />
           <HelpTOCNode Title="SmtpConfigurationKey Property " Url="html/P_SMTPRouter_Windows_Configuration_RoutingRuleElement_SmtpConfigurationKey.htm" />
           <HelpTOCNode Title="Type Property " Url="html/P_SMTPRouter_Windows_Configuration_RoutingRuleElement_Type.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="e67c0645-3941-471a-a01a-25b3385c8c4f" Title="RoutingRuleElement Methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_RoutingRuleElement.htm">
+        <HelpTOCNode Id="d390859a-fcb1-4361-84d3-84fa9e3cf212" Title="RoutingRuleElement Methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_RoutingRuleElement.htm">
           <HelpTOCNode Title="ToString Method " Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleElement_ToString.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="ec8a9f44-4783-4b1e-b028-224d18d014da" Title="RoutingRulesSection Class" Url="html/T_SMTPRouter_Windows_Configuration_RoutingRulesSection.htm">
+      <HelpTOCNode Id="9ab9b55a-398e-43c4-91a3-c0f9d48303bb" Title="RoutingRulesSection Class" Url="html/T_SMTPRouter_Windows_Configuration_RoutingRulesSection.htm">
         <HelpTOCNode Title="RoutingRulesSection Constructor " Url="html/M_SMTPRouter_Windows_Configuration_RoutingRulesSection__ctor.htm" />
-        <HelpTOCNode Id="8a3f3278-1905-44fa-ad80-ed6b2700a394" Title="RoutingRulesSection Properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_RoutingRulesSection.htm">
+        <HelpTOCNode Id="fa13be4b-3f0d-4045-9128-c29019600da3" Title="RoutingRulesSection Properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_RoutingRulesSection.htm">
           <HelpTOCNode Title="RoutingRules Property " Url="html/P_SMTPRouter_Windows_Configuration_RoutingRulesSection_RoutingRules.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="RoutingRulesSection Methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_RoutingRulesSection.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="3c08d731-2580-4880-b391-897cc504444f" Title="SmtpConnectionCollection Class" Url="html/T_SMTPRouter_Windows_Configuration_SmtpConnectionCollection.htm">
+      <HelpTOCNode Id="05e56c81-5780-4aea-88ad-f09d5b75a898" Title="SmtpConnectionCollection Class" Url="html/T_SMTPRouter_Windows_Configuration_SmtpConnectionCollection.htm">
         <HelpTOCNode Title="SmtpConnectionCollection Constructor " Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection__ctor.htm" />
-        <HelpTOCNode Id="3078894d-a534-4602-8a50-366da9e8b7ec" Title="SmtpConnectionCollection Properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_SmtpConnectionCollection.htm">
+        <HelpTOCNode Id="ccefc2a5-2bb7-4322-8d1c-cb7d6b2ea8b1" Title="SmtpConnectionCollection Properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_SmtpConnectionCollection.htm">
           <HelpTOCNode Title="Item Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_Item.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="593142fb-a9ee-4093-a370-e9aad37f4426" Title="SmtpConnectionCollection Methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_SmtpConnectionCollection.htm">
+        <HelpTOCNode Id="31f757ff-17fd-4607-93d6-707a52d9671b" Title="SmtpConnectionCollection Methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_SmtpConnectionCollection.htm">
           <HelpTOCNode Title="Add Method " Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_Add.htm" />
           <HelpTOCNode Title="Clear Method " Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_Clear.htm" />
           <HelpTOCNode Title="IndexOf Method " Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_IndexOf.htm" />
@@ -314,25 +315,26 @@
           <HelpTOCNode Title="RemoveAt Method " Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_RemoveAt.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="7800973d-5454-4380-a74e-5c19d256ec7c" Title="SmtpConnectionElement Class" Url="html/T_SMTPRouter_Windows_Configuration_SmtpConnectionElement.htm">
+      <HelpTOCNode Id="109b0afd-ea43-4333-a38b-9650a0b156b7" Title="SmtpConnectionElement Class" Url="html/T_SMTPRouter_Windows_Configuration_SmtpConnectionElement.htm">
         <HelpTOCNode Title="SmtpConnectionElement Constructor " Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionElement__ctor.htm" />
-        <HelpTOCNode Id="a086dbd4-3656-46d5-b1d1-72051204fa40" Title="SmtpConnectionElement Properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_SmtpConnectionElement.htm">
+        <HelpTOCNode Id="8a7085e5-8915-4331-a01d-a032a2070d69" Title="SmtpConnectionElement Properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_SmtpConnectionElement.htm">
           <HelpTOCNode Title="Description Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_Description.htm" />
           <HelpTOCNode Title="Host Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_Host.htm" />
           <HelpTOCNode Title="Key Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_Key.htm" />
           <HelpTOCNode Title="Password Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_Password.htm" />
           <HelpTOCNode Title="Port Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_Port.htm" />
           <HelpTOCNode Title="RequiresAuthentication Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_RequiresAuthentication.htm" />
+          <HelpTOCNode Title="SecureSocketOption Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_SecureSocketOption.htm" />
           <HelpTOCNode Title="User Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_User.htm" />
           <HelpTOCNode Title="UseSSL Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_UseSSL.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="4f4d8988-a018-4bbd-af0f-6ce73d1eb540" Title="SmtpConnectionElement Methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_SmtpConnectionElement.htm">
+        <HelpTOCNode Id="88bf186e-2889-493f-96b2-582406e816c0" Title="SmtpConnectionElement Methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_SmtpConnectionElement.htm">
           <HelpTOCNode Title="ToString Method " Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionElement_ToString.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="a8d42716-cec3-44d2-b801-114a25eb266a" Title="SmtpConnectionsSection Class" Url="html/T_SMTPRouter_Windows_Configuration_SmtpConnectionsSection.htm">
+      <HelpTOCNode Id="75975f98-7504-4105-9246-010363ea235d" Title="SmtpConnectionsSection Class" Url="html/T_SMTPRouter_Windows_Configuration_SmtpConnectionsSection.htm">
         <HelpTOCNode Title="SmtpConnectionsSection Constructor " Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionsSection__ctor.htm" />
-        <HelpTOCNode Id="d8e13c24-486e-4e5f-9f4d-cbf8ee2be4e1" Title="SmtpConnectionsSection Properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_SmtpConnectionsSection.htm">
+        <HelpTOCNode Id="af324d70-786d-42a7-916e-5a1dfc0a67d9" Title="SmtpConnectionsSection Properties" Url="html/Properties_T_SMTPRouter_Windows_Configuration_SmtpConnectionsSection.htm">
           <HelpTOCNode Title="SmtpConnections Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionsSection_SmtpConnections.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="SmtpConnectionsSection Methods" Url="html/Methods_T_SMTPRouter_Windows_Configuration_SmtpConnectionsSection.htm" />

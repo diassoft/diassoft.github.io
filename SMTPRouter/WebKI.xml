@@ -352,6 +352,10 @@
   <HelpKINode Title="RoutingRulesSection.RoutingRulesSection constructor" Url="html/M_SMTPRouter_Windows_Configuration_RoutingRulesSection__ctor.htm" />
   <HelpKINode Title="SaveRoutingRules method" Url="html/M_SMTPRouter_Router_SaveRoutingRules.htm" />
   <HelpKINode Title="SaveSmtpConfiguration method" Url="html/M_SMTPRouter_Router_SaveSmtpConfiguration.htm" />
+  <HelpKINode Title="SecureSocketOption property">
+    <HelpKINode Title="SmtpConfiguration.SecureSocketOption Property " Url="html/P_SMTPRouter_Models_SmtpConfiguration_SecureSocketOption.htm" />
+    <HelpKINode Title="SmtpConnectionElement.SecureSocketOption Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_SecureSocketOption.htm" />
+  </HelpKINode>
   <HelpKINode Title="SentFolder property" Url="html/P_SMTPRouter_WorkingFolders_SentFolder.htm" />
   <HelpKINode Title="Server class">
     <HelpKINode Title="Server Class" Url="html/T_SMTPRouter_Server.htm" />
@@ -414,6 +418,7 @@
   <HelpKINode Title="SmtpConfiguration.Password property" Url="html/P_SMTPRouter_Models_SmtpConfiguration_Password.htm" />
   <HelpKINode Title="SmtpConfiguration.Port property" Url="html/P_SMTPRouter_Models_SmtpConfiguration_Port.htm" />
   <HelpKINode Title="SmtpConfiguration.RequiresAuthentication property" Url="html/P_SMTPRouter_Models_SmtpConfiguration_RequiresAuthentication.htm" />
+  <HelpKINode Title="SmtpConfiguration.SecureSocketOption property" Url="html/P_SMTPRouter_Models_SmtpConfiguration_SecureSocketOption.htm" />
   <HelpKINode Title="SmtpConfiguration.SmtpConfiguration constructor" Url="html/M_SMTPRouter_Models_SmtpConfiguration__ctor.htm" />
   <HelpKINode Title="SmtpConfiguration.User property" Url="html/P_SMTPRouter_Models_SmtpConfiguration_User.htm" />
   <HelpKINode Title="SmtpConfiguration.UseSSL property" Url="html/P_SMTPRouter_Models_SmtpConfiguration_UseSSL.htm" />
@@ -446,6 +451,7 @@
   <HelpKINode Title="SmtpConnectionElement.Password property" Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_Password.htm" />
   <HelpKINode Title="SmtpConnectionElement.Port property" Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_Port.htm" />
   <HelpKINode Title="SmtpConnectionElement.RequiresAuthentication property" Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_RequiresAuthentication.htm" />
+  <HelpKINode Title="SmtpConnectionElement.SecureSocketOption property" Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_SecureSocketOption.htm" />
   <HelpKINode Title="SmtpConnectionElement.SmtpConnectionElement constructor" Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionElement__ctor.htm" />
   <HelpKINode Title="SmtpConnectionElement.ToString method" Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionElement_ToString.htm" />
   <HelpKINode Title="SmtpConnectionElement.User property" Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionElement_User.htm" />
