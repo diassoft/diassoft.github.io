@@ -5,6 +5,7 @@
     <HelpKINode Title="SmtpConnectionCollection.Add Method " Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_Add.htm" />
   </HelpKINode>
   <HelpKINode Title="AttemptCount property" Url="html/P_SMTPRouter_Models_RoutingMessage_AttemptCount.htm" />
+  <HelpKINode Title="Cancel property" Url="html/P_SMTPRouter_PurgeFileEventArgs_Cancel.htm" />
   <HelpKINode Title="Clear method">
     <HelpKINode Title="RoutingRuleCollection.Clear Method " Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection_Clear.htm" />
     <HelpKINode Title="SmtpConnectionCollection.Clear Method " Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_Clear.htm" />
@@ -44,6 +45,8 @@
     <HelpKINode Title="RoutingRule.ExecutionSequence Property " Url="html/P_SMTPRouter_Models_RoutingRule_ExecutionSequence.htm" />
     <HelpKINode Title="RoutingRuleElement.ExecutionSequence Property " Url="html/P_SMTPRouter_Windows_Configuration_RoutingRuleElement_ExecutionSequence.htm" />
   </HelpKINode>
+  <HelpKINode Title="File property" Url="html/P_SMTPRouter_PurgeFileEventArgs_File.htm" />
+  <HelpKINode Title="Files property" Url="html/P_SMTPRouter_PurgeFilesEventArgs_Files.htm" />
   <HelpKINode Title="Folders property">
     <HelpKINode Title="Router.Folders Property " Url="html/P_SMTPRouter_Router_Folders.htm" />
     <HelpKINode Title="Server.Folders Property " Url="html/P_SMTPRouter_Server_Folders.htm" />
@@ -72,7 +75,10 @@
   </HelpKINode>
   <HelpKINode Title="IsInitialized property" Url="html/P_SMTPRouter_Router_IsInitialized.htm" />
   <HelpKINode Title="IsListening property" Url="html/P_SMTPRouter_Listener_IsListening.htm" />
-  <HelpKINode Title="IsPaused property" Url="html/P_SMTPRouter_Router_IsPaused.htm" />
+  <HelpKINode Title="IsPaused property">
+    <HelpKINode Title="Router.IsPaused Property " Url="html/P_SMTPRouter_Router_IsPaused.htm" />
+    <HelpKINode Title="Server.IsPaused Property " Url="html/P_SMTPRouter_Server_IsPaused.htm" />
+  </HelpKINode>
   <HelpKINode Title="Item property">
     <HelpKINode Title="RoutingRuleCollection.Item Property " Url="html/P_SMTPRouter_Windows_Configuration_RoutingRuleCollection_Item.htm" />
     <HelpKINode Title="SmtpConnectionCollection.Item Property " Url="html/P_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_Item.htm" />
@@ -132,6 +138,7 @@
   <HelpKINode Title="Match method">
     <HelpKINode Title="MailFromDomainRoutingRule.Match Method " Url="html/M_SMTPRouter_Models_MailFromDomainRoutingRule_Match.htm" />
     <HelpKINode Title="MailFromRegexMatchRoutingRule.Match Method " Url="html/M_SMTPRouter_Models_MailFromRegexMatchRoutingRule_Match.htm" />
+    <HelpKINode Title="RelayRoutingRule.Match Method " Url="html/M_SMTPRouter_Models_RelayRoutingRule_Match.htm" />
     <HelpKINode Title="RoutingRule.Match Method " Url="html/M_SMTPRouter_Models_RoutingRule_Match.htm" />
   </HelpKINode>
   <HelpKINode Title="Message property" Url="html/P_SMTPRouter_Models_RoutingMessage_Message.htm" />
@@ -179,6 +186,10 @@
     <HelpKINode Title="Router.MessagePurgeLifespan Property " Url="html/P_SMTPRouter_Router_MessagePurgeLifespan.htm" />
     <HelpKINode Title="Server.MessagePurgeLifespan Property " Url="html/P_SMTPRouter_Server_MessagePurgeLifespan.htm" />
   </HelpKINode>
+  <HelpKINode Title="MessagePurging event">
+    <HelpKINode Title="Router.MessagePurging Event" Url="html/E_SMTPRouter_Router_MessagePurging.htm" />
+    <HelpKINode Title="Server.MessagePurging Event" Url="html/E_SMTPRouter_Server_MessagePurging.htm" />
+  </HelpKINode>
   <HelpKINode Title="MessageReceived event">
     <HelpKINode Title="Listener.MessageReceived Event" Url="html/E_SMTPRouter_Listener_MessageReceived.htm" />
     <HelpKINode Title="Server.MessageReceived Event" Url="html/E_SMTPRouter_Server_MessageReceived.htm" />
@@ -186,6 +197,10 @@
   <HelpKINode Title="MessageRoutedSuccessfully event">
     <HelpKINode Title="Router.MessageRoutedSuccessfully Event" Url="html/E_SMTPRouter_Router_MessageRoutedSuccessfully.htm" />
     <HelpKINode Title="Server.MessageRoutedSuccessfully Event" Url="html/E_SMTPRouter_Server_MessageRoutedSuccessfully.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MessagesPurged event">
+    <HelpKINode Title="Router.MessagesPurged Event" Url="html/E_SMTPRouter_Router_MessagesPurged.htm" />
+    <HelpKINode Title="Server.MessagesPurged Event" Url="html/E_SMTPRouter_Server_MessagesPurged.htm" />
   </HelpKINode>
   <HelpKINode Title="MethodName property" Url="html/P_SMTPRouter_GeneralErrorEventArgs_MethodName.htm" />
   <HelpKINode Title="MimeMessage property">
@@ -223,6 +238,29 @@
     <HelpKINode Title="Listener.Ports Property " Url="html/P_SMTPRouter_Listener_Ports.htm" />
     <HelpKINode Title="Server.Ports Property " Url="html/P_SMTPRouter_Server_Ports.htm" />
   </HelpKINode>
+  <HelpKINode Title="PurgeDate property">
+    <HelpKINode Title="PurgeFileEventArgs.PurgeDate Property " Url="html/P_SMTPRouter_PurgeFileEventArgs_PurgeDate.htm" />
+    <HelpKINode Title="PurgeFilesEventArgs.PurgeDate Property " Url="html/P_SMTPRouter_PurgeFilesEventArgs_PurgeDate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PurgeFileEventArgs class">
+    <HelpKINode Title="PurgeFileEventArgs Class" Url="html/T_SMTPRouter_PurgeFileEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SMTPRouter_PurgeFileEventArgs__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_PurgeFileEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_PurgeFileEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PurgeFileEventArgs.Cancel property" Url="html/P_SMTPRouter_PurgeFileEventArgs_Cancel.htm" />
+  <HelpKINode Title="PurgeFileEventArgs.File property" Url="html/P_SMTPRouter_PurgeFileEventArgs_File.htm" />
+  <HelpKINode Title="PurgeFileEventArgs.PurgeDate property" Url="html/P_SMTPRouter_PurgeFileEventArgs_PurgeDate.htm" />
+  <HelpKINode Title="PurgeFileEventArgs.PurgeFileEventArgs constructor" Url="html/M_SMTPRouter_PurgeFileEventArgs__ctor.htm" />
+  <HelpKINode Title="PurgeFilesEventArgs class">
+    <HelpKINode Title="PurgeFilesEventArgs Class" Url="html/T_SMTPRouter_PurgeFilesEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SMTPRouter_PurgeFilesEventArgs__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_PurgeFilesEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_PurgeFilesEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PurgeFilesEventArgs.Files property" Url="html/P_SMTPRouter_PurgeFilesEventArgs_Files.htm" />
+  <HelpKINode Title="PurgeFilesEventArgs.PurgeDate property" Url="html/P_SMTPRouter_PurgeFilesEventArgs_PurgeDate.htm" />
+  <HelpKINode Title="PurgeFilesEventArgs.PurgeFilesEventArgs constructor" Url="html/M_SMTPRouter_PurgeFilesEventArgs__ctor.htm" />
   <HelpKINode Title="PurgeQueues method" Url="html/M_SMTPRouter_Router_PurgeQueues.htm" />
   <HelpKINode Title="QueueName property">
     <HelpKINode Title="Router.QueueName Property " Url="html/P_SMTPRouter_Router_QueueName.htm" />
@@ -242,6 +280,15 @@
   <HelpKINode Title="QueuesNotInitializedException.QueuesNotInitializedException constructor" Url="html/Overload_SMTPRouter_QueuesNotInitializedException__ctor.htm" />
   <HelpKINode Title="RawMessage property" Url="html/P_SMTPRouter_Models_RoutingMessage_RawMessage.htm" />
   <HelpKINode Title="RegexExpression property" Url="html/P_SMTPRouter_Models_MailFromRegexMatchRoutingRule_RegexExpression.htm" />
+  <HelpKINode Title="RelayRoutingRule class">
+    <HelpKINode Title="RelayRoutingRule Class" Url="html/T_SMTPRouter_Models_RelayRoutingRule.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SMTPRouter_Models_RelayRoutingRule__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_SMTPRouter_Models_RelayRoutingRule.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SMTPRouter_Models_RelayRoutingRule.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SMTPRouter_Models_RelayRoutingRule.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RelayRoutingRule.Match method" Url="html/M_SMTPRouter_Models_RelayRoutingRule_Match.htm" />
+  <HelpKINode Title="RelayRoutingRule.RelayRoutingRule constructor" Url="html/M_SMTPRouter_Models_RelayRoutingRule__ctor.htm" />
   <HelpKINode Title="Remove method">
     <HelpKINode Title="RoutingRuleCollection.Remove Method " Url="html/M_SMTPRouter_Windows_Configuration_RoutingRuleCollection_Remove.htm" />
     <HelpKINode Title="SmtpConnectionCollection.Remove Method " Url="html/M_SMTPRouter_Windows_Configuration_SmtpConnectionCollection_Remove.htm" />
@@ -277,7 +324,9 @@
   <HelpKINode Title="Router.MessageLifespan property" Url="html/P_SMTPRouter_Router_MessageLifespan.htm" />
   <HelpKINode Title="Router.MessageNotRouted event" Url="html/E_SMTPRouter_Router_MessageNotRouted.htm" />
   <HelpKINode Title="Router.MessagePurgeLifespan property" Url="html/P_SMTPRouter_Router_MessagePurgeLifespan.htm" />
+  <HelpKINode Title="Router.MessagePurging event" Url="html/E_SMTPRouter_Router_MessagePurging.htm" />
   <HelpKINode Title="Router.MessageRoutedSuccessfully event" Url="html/E_SMTPRouter_Router_MessageRoutedSuccessfully.htm" />
+  <HelpKINode Title="Router.MessagesPurged event" Url="html/E_SMTPRouter_Router_MessagesPurged.htm" />
   <HelpKINode Title="Router.PurgeQueues method" Url="html/M_SMTPRouter_Router_PurgeQueues.htm" />
   <HelpKINode Title="Router.QueueName property" Url="html/P_SMTPRouter_Router_QueueName.htm" />
   <HelpKINode Title="Router.QueuePath property" Url="html/P_SMTPRouter_Router_QueuePath.htm" />
@@ -368,13 +417,16 @@
   <HelpKINode Title="Server.DestinationSmtps property" Url="html/P_SMTPRouter_Server_DestinationSmtps.htm" />
   <HelpKINode Title="Server.Folders property" Url="html/P_SMTPRouter_Server_Folders.htm" />
   <HelpKINode Title="Server.GeneralError event" Url="html/E_SMTPRouter_Server_GeneralError.htm" />
+  <HelpKINode Title="Server.IsPaused property" Url="html/P_SMTPRouter_Server_IsPaused.htm" />
   <HelpKINode Title="Server.Listener property" Url="html/P_SMTPRouter_Server_Listener.htm" />
   <HelpKINode Title="Server.ListeningStarted event" Url="html/E_SMTPRouter_Server_ListeningStarted.htm" />
   <HelpKINode Title="Server.MessageLifespan property" Url="html/P_SMTPRouter_Server_MessageLifespan.htm" />
   <HelpKINode Title="Server.MessageNotRouted event" Url="html/E_SMTPRouter_Server_MessageNotRouted.htm" />
   <HelpKINode Title="Server.MessagePurgeLifespan property" Url="html/P_SMTPRouter_Server_MessagePurgeLifespan.htm" />
+  <HelpKINode Title="Server.MessagePurging event" Url="html/E_SMTPRouter_Server_MessagePurging.htm" />
   <HelpKINode Title="Server.MessageReceived event" Url="html/E_SMTPRouter_Server_MessageReceived.htm" />
   <HelpKINode Title="Server.MessageRoutedSuccessfully event" Url="html/E_SMTPRouter_Server_MessageRoutedSuccessfully.htm" />
+  <HelpKINode Title="Server.MessagesPurged event" Url="html/E_SMTPRouter_Server_MessagesPurged.htm" />
   <HelpKINode Title="Server.Ports property" Url="html/P_SMTPRouter_Server_Ports.htm" />
   <HelpKINode Title="Server.QueueName property" Url="html/P_SMTPRouter_Server_QueueName.htm" />
   <HelpKINode Title="Server.QueuePath property" Url="html/P_SMTPRouter_Server_QueuePath.htm" />
@@ -480,9 +532,12 @@
   <HelpKINode Title="SMTPRouter.Models namespace" Url="html/N_SMTPRouter_Models.htm" />
   <HelpKINode Title="SMTPRouter.Models.MailFromDomainRoutingRule class" Url="html/T_SMTPRouter_Models_MailFromDomainRoutingRule.htm" />
   <HelpKINode Title="SMTPRouter.Models.MailFromRegexMatchRoutingRule class" Url="html/T_SMTPRouter_Models_MailFromRegexMatchRoutingRule.htm" />
+  <HelpKINode Title="SMTPRouter.Models.RelayRoutingRule class" Url="html/T_SMTPRouter_Models_RelayRoutingRule.htm" />
   <HelpKINode Title="SMTPRouter.Models.RoutingMessage class" Url="html/T_SMTPRouter_Models_RoutingMessage.htm" />
   <HelpKINode Title="SMTPRouter.Models.RoutingRule class" Url="html/T_SMTPRouter_Models_RoutingRule.htm" />
   <HelpKINode Title="SMTPRouter.Models.SmtpConfiguration class" Url="html/T_SMTPRouter_Models_SmtpConfiguration.htm" />
+  <HelpKINode Title="SMTPRouter.PurgeFileEventArgs class" Url="html/T_SMTPRouter_PurgeFileEventArgs.htm" />
+  <HelpKINode Title="SMTPRouter.PurgeFilesEventArgs class" Url="html/T_SMTPRouter_PurgeFilesEventArgs.htm" />
   <HelpKINode Title="SMTPRouter.QueuesNotInitializedException class" Url="html/T_SMTPRouter_QueuesNotInitializedException.htm" />
   <HelpKINode Title="SMTPRouter.Router class" Url="html/T_SMTPRouter_Router.htm" />
   <HelpKINode Title="SMTPRouter.Server class" Url="html/T_SMTPRouter_Server.htm" />

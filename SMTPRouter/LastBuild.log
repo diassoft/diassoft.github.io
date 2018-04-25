@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.12.30.2" projectFile="D:\Diassoft\Sandcastle\SMTPRouter\SMTPRouter.shfbproj" started="4/24/2018 8:32:17 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.12.30.2" projectFile="D:\Diassoft\Sandcastle\SMTPRouter\SMTPRouter.shfbproj" started="4/24/2018 10:56:35 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -42,16 +42,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0060
+</plugIn>    Last step completed in 00:00:00.0230
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0110
+    Last step completed in 00:00:00.0160
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateRefInfo.proj]
-Build started 4/24/2018 8:32:18 AM.
+Build started 4/24/2018 10:56:36 PM.
 Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -61,10 +61,11 @@ GenerateRefInfo:
   Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 2 assemblies for reflection and 57 dependency assemblies.
+  Using automatic redirect &#39;SMTPRouter, Version=1.0.0.4, Culture=neutral, PublicKeyToken=null&#39; in place of &#39;SMTPRouter, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null&#39;
   Using automatic redirect &#39;System.Threading.Tasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Threading.Tasks, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
-  Using automatic redirect &#39;System.Collections.Concurrent, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Collections, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
 MRefBuilder : warning : Ignoring unresolved assembly reference: System.IO.FileSystem (System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by SMTPRouter [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\GenerateRefInfo.proj]
-  Wrote information on 3 namespaces, 24 types, and 167 members
+  Using automatic redirect &#39;System.Collections.Concurrent, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Collections, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Wrote information on 3 namespaces, 27 types, and 181 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2017.12.30.2)
   Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
@@ -75,12 +76,12 @@ Done Building Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Gener
 Build succeeded.
 
 Time Elapsed 00:00:01.10
-    Last step completed in 00:00:01.2150
+    Last step completed in 00:00:01.2250
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - TransformManifest.proj]
-Build started 4/24/2018 8:32:20 AM.
+Build started 4/24/2018 10:56:37 PM.
 Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2017.12.30.2)
@@ -122,28 +123,28 @@ Done Building Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Trans
 
 Build succeeded.
 
-Time Elapsed 00:00:00.55
-    Last step completed in 00:00:00.6920
+Time Elapsed 00:00:00.57
+    Last step completed in 00:00:00.7180
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0170
+    Last step completed in 00:00:00.0190
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 D:\Diassoft\Sandcastle\SMTPRouter\icons\Nuget-Package-Icon-v01.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\icons\Nuget-Package-Icon-v01.png
 D:\Diassoft\Sandcastle\SMTPRouter\icons\Nuget-Package-Icon-v01.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\MSHelpViewer\icons\Nuget-Package-Icon-v01.png
 D:\Diassoft\Sandcastle\SMTPRouter\icons\Nuget-Package-Icon-v01.png -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\icons\Nuget-Package-Icon-v01.png
-    Last step completed in 00:00:00.0050
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 4/24/2018 8:32:20 AM.
+Build started 4/24/2018 10:56:38 PM.
 Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2017.12.30.2)
@@ -156,24 +157,24 @@ Build succeeded.
 
 Time Elapsed 00:00:00.13
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.2290
+    Last step completed in 00:00:00.2370
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.2330
+    Last step completed in 00:00:00.2160
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0200
+    Last step completed in 00:00:00.0190
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildTopics.proj]
-Build started 4/24/2018 8:32:21 AM.
+Build started 4/24/2018 10:56:39 PM.
 Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2017.12.30.2)
@@ -322,6 +323,48 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Models.MailFromRegexMatchRoutingRule.Match(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Models.MailFromRegexMatchRoutingRule.Match(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Models.MailFromRegexMatchRoutingRule.Match(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.OnPropertyChanged(System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.SetProperty``1(``0@,``0,System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.OnPropertyChanged(System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.SetProperty``1(``0@,``0,System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.OnPropertyChanged(System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.SetProperty``1(``0@,``0,System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.OnPropertyChanged(System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.SetProperty``1(``0@,``0,System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.OnPropertyChanged(System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.SetProperty``1(``0@,``0,System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.OnPropertyChanged(System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;M:Diassoft.Mvvm.ObservableObjectBase.SetProperty``1(``0@,``0,System.String)&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;E:Diassoft.Mvvm.ObservableObjectBase.PropertyChanged&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.RelayRoutingRule] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Models.RelayRoutingRule.Match(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Models.RelayRoutingRule.Match(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SMTPRouter.Models.RelayRoutingRule.Match(MimeKit.MimeMessage)] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:SMTPRouter.Models.RoutingMessage] Unknown reference link target &#39;T:MimeKit.MimeMessage&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
@@ -441,16 +484,16 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:SMTPRouter.Models.SmtpConfiguration] Unknown reference link target &#39;T:Diassoft.Mvvm.ObservableObjectBase&#39;. [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.RoutingRuleElement.ToString] Missing &lt;returns&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SMTPRouter.Windows.Configuration.SmtpConnectionElement.ToString] Missing &lt;returns&gt; documentation [D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj]
-  Processed 265 topic(s)
-  260 warning(s)
-  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
+  Processed 289 topic(s)
+  302 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 7 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 6 of 30.
 Done Building Project &quot;D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:09.25
-    Last step completed in 00:00:09.3900
+Time Elapsed 00:00:09.02
+    Last step completed in 00:00:09.1620
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
@@ -466,17 +509,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1
-Processed 265 HTML files
+Processed 289 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\SMTPRouterDoc.hhk
 Saving HTML Help 1 table of contents to D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\SMTPRouterDoc.hhc
 
 Processing website files in D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website
-Processed 265 HTML files
+Processed 289 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\WebKI.xml
 Saving website table of contents to D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\WebTOC.xml
-    Last step completed in 00:00:00.3900
+    Last step completed in 00:00:00.4230
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -682,7 +725,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; D:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.3640
+    Last step completed in 00:00:00.3690
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -690,11 +733,11 @@ Generating HTML Help 1 table of contents file...
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0090
+    Last step completed in 00:00:00.0080
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -711,11 +754,11 @@ Compiling HTML Help 1 file...
   
   Compile time: 0 minutes, 6 seconds
   
-  267	Topics
+  291	Topics
   
-  2,647	Local links
+  2,904	Local links
   
-  1,340	Internet links
+  1,453	Internet links
   
   0	Graphics
   
@@ -723,15 +766,15 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\SMTPRouterDoc.chm, 287,658 bytes
+  Created d:\Diassoft\Sandcastle\SMTPRouter\Help\Working\Output\HtmlHelp1\SMTPRouterDoc.chm, 308,910 bytes
   
-  Compression decreased file by 2,236,145 bytes.
+  Compression decreased file by 2,436,592 bytes.
   
-    Last step completed in 00:00:07.6884
+    Last step completed in 00:00:07.6123
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Executing informational Generate Table of Contents build step for plug-ins (not used for MS Help Viewer)
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Executing informational Generate Help Project build step for plug-ins (not used for MS Help Viewer)
@@ -741,11 +784,11 @@ Executing informational Generate Help Project build step for plug-ins (not used 
 Generating MS Help Viewer file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildHelpViewerFile.proj]
   Compressing help content files...
-  Compression finished.  335 items added
+  Compression finished.  359 items added
   Saving D:\Diassoft\Sandcastle\SMTPRouter\Help\SMTPRouterDoc.mshc...
   Finished saving D:\Diassoft\Sandcastle\SMTPRouter\Help\SMTPRouterDoc.mshc
-  Compressed 4 folders, 331 files.  Reduced size by 1,854,962 bytes (74%).
-    Last step completed in 00:00:00.6530
+  Compressed 4 folders, 355 files.  Reduced size by 2,018,002 bytes (74%).
+    Last step completed in 00:00:00.7320
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -756,21 +799,21 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:02.3880
+</plugIn>    Last step completed in 00:00:02.4990
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
-Copied 446 files for the website content
-    Last step completed in 00:00:00.7481
+Copied 477 files for the website content
+    Last step completed in 00:00:00.8520
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.6576
+    Last step completed in 00:00:00.7963
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 4/24/2018 8:32:43 AM.  Total time: 00:00:25.8944
+Build completed successfully at 4/24/2018 10:57:01 PM.  Total time: 00:00:25.9254
 
 </buildStep>
 </shfbBuild>
